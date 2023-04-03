@@ -184,31 +184,6 @@ const Navbar = ({ activepage }) => {
               </div>
             )}
           </NavLink>
-          <NavLink
-            to="/my-store/billing"
-            className={(navData) =>
-              navData.isActive ? "secondaryLinkactive" : "secondaryLink"
-            }
-          >
-            {({ isActive }) => (
-              <div className="secondaryLinkDiv">
-                {isActive === true ? (
-                  <img
-                    src={billingActiveIcon}
-                    alt="generalSettings"
-                    className="secondaryLinkIcons"
-                  />
-                ) : (
-                  <img
-                    src={billingIcon}
-                    alt="generalSettings"
-                    className="secondaryLinkIcons"
-                  />
-                )}
-                Billing
-              </div>
-            )}
-          </NavLink>
         </div>
       ) : (
         ""
