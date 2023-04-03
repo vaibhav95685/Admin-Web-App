@@ -441,36 +441,6 @@ const AdvancedSetting = ({ store, updateStore }) => {
                   )}
                 </div> */}
               </div>
-              <div className="myStoreHeading2"> Site URL</div>
-              <div className="myStoreHeading3"> Primary URL</div>
-              {/* <div className='formInputContainer  formInputContainerAdvancedSetting'>
-              http//:Abc.nftifi.com
-            </div> */}
-              <div className="formInputContainer">
-                <input
-                  type="text"
-                  className="formsInput"
-                  placeholder="http//:Abc.nftifi.com"
-                  defaultValue={store?.siteUrl}
-                  onChange={(e) => {
-                    setSaveActive(true);
-                    siteUrl.current = e.target.value;
-                  }}
-                />
-              </div>
-              <div className="formsecondarytext">
-                For adding Custom URL{" "}
-                <span>
-                  {" "}
-                  <NavLink
-                    to="/my-store/billing"
-                    className="formsecondarytextadvancedSetting"
-                  >
-                    Upgrade
-                  </NavLink>
-                </span>{" "}
-                you plan
-              </div>
               <div className="myStoreHeading2"> Can Upload NFT</div>
               <div className="formInputContainer posrel formInputContainerAdvancedSetting">
                 <div className="dflex justbetween w100" onClick={() => handleDropDown()}>
