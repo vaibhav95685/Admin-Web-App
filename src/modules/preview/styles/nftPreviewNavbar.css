@@ -1,0 +1,425 @@
+.nftPreviewNavbar {
+  width: 100vw;
+  height: 9.5%;
+  /* height: 70px; */
+  box-sizing: border-box;
+  box-shadow: #00000014 0px 3px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 7.5%;
+  /* border: 2px solid red; */
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+  background-color: white;
+}
+.nftPreviewNavbarInnerContainer {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 7.5%;
+}
+
+.nftPreviewNavbarContainer1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 6%;
+  margin-left: -10%;
+}
+.nftPreviewNavbarContainer1 img {
+  height: 8vh;
+  /* width: 100px; */
+}
+.nftPreviewSearchBoxContainer {
+  /* border: 2px solid red; */
+  border-radius: 4px;
+  font-family: "poppins";
+  background-color: rgb(248, 248, 248);
+  width: 17vw;
+  height: 6.3vh;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  font-family: "poppins-medium";
+  font-size: 1.4vw;
+  padding: 10px;
+  margin-right: 10px;
+}
+.nftPreviewSearchBoxContainer input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: "poppins-medium";
+  font-size: 0.9vw;
+}
+.nftPreviewSearchIconContainer {
+  height: 5.3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  padding: 0px 1.4%;
+  font-size: 1.4vw;
+  box-sizing: border-box;
+  background-color: rgb(248, 248, 248);
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.nftPreviewNavbarContainer2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 12%;
+}
+.nftPreviewNavbarButtonsActive {
+  font-family: "poppins-bold";
+  font-size: 1vw;
+  /* border-bottom: 3px solid #366eef; */
+  box-sizing: border-box;
+  height: 9.5vh;
+  display: flex;
+  align-items: center;
+  font: normal normal 700 16px/25px Poppins;
+}
+.nftPreviewNavbarButtons {
+  font-family: "poppins";
+  font-size: 1vw;
+  box-sizing: border-box;
+  height: 9.5vh;
+  display: flex;
+  align-items: center;
+  color: #828282;
+  margin-left: 8%;
+  font: normal normal 700 16px/25px Poppins;
+}
+.nftPreviewNavbarCreateButtons {
+  height: 5.3vh;
+  display: flex;
+  align-items: center;
+  background-color: #366eef;
+  color: white;
+  font-family: "poppins-medium";
+  font-size: 0.9vw;
+  padding: 20px 11%;
+  margin-left: 9%;
+  border-radius: 4px;
+}
+.nftPreviewNavbarSeperator {
+  height: 4vh;
+  border: 1px solid #707070;
+  background-color: #707070;
+  box-sizing: border-box;
+  margin: 0px 9%;
+}
+.nftPreviewNavbarIcons {
+  margin-right: 6%;
+}
+.nftPreviewNavbarIcons img {
+  height: 4vh;
+}
+.reponsiveHamburgerIcon {
+  display: none;
+}
+.responsiveSeaarchBar {
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  .nftPreviewNavbar {
+    width: 100vw;
+    height: 9.5%;
+    /* height: 70px; */
+    box-sizing: border-box;
+    box-shadow: #00000014 0px 3px 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 7.5%;
+    /* border: 2px solid red; */
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    background-color: white;
+    overflow-y: hidden;
+  }
+  .nftPreviewNavbarInnerContainer {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 7.5%;
+  }
+  .nftPreviewNavbarContainer1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10%;
+  }
+  .nftPreviewNavbarContainer1 img {
+    height: 8vh;
+    /* width: 100px; */
+  }
+  .nftPreviewSearchBoxContainer {
+    /* border: 2px solid red; */
+    border-radius: 4px;
+    font-family: "poppins";
+    background-color: rgb(248, 248, 248);
+    width: 30vw;
+    height: 5.3vh;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    font-family: "poppins-medium";
+    font-size: 2.2vw;
+  }
+  .nftPreviewSearchBoxContainer input {
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: "poppins-medium";
+    font-size: 2.2vw;
+  }
+  .nftPreviewSearchIconContainer {
+    height: 5.3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    padding: 0px 1.4%;
+    font-size: 1.9vw;
+    box-sizing: border-box;
+    background-color: rgb(248, 248, 248);
+    border-radius: 4px;
+  }
+  .nftPreviewNavbarContainer2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nftPreviewNavbarButtonsActive {
+    font-family: "poppins-bold";
+    font-size: 0.9vw;
+    border-bottom: 3px solid #366eef;
+    box-sizing: border-box;
+    height: 9.5vh;
+    display: flex;
+    align-items: center;
+    display: none;
+  }
+  .nftPreviewNavbarButtons {
+    font-family: "poppins";
+    font-size: 0.9vw;
+    box-sizing: border-box;
+    height: 9.5vh;
+    display: flex;
+    align-items: center;
+    color: #828282;
+    margin-left: 8%;
+    display: none;
+  }
+  .nftPreviewNavbarCreateButtons {
+    height: 5.3vh;
+    display: flex;
+    align-items: center;
+    background-color: #366eef;
+    color: white;
+    font-family: "poppins-medium";
+    font-size: 0.9vw;
+    padding: 0px 11%;
+    margin-left: 9%;
+    border-radius: 4px;
+    display: none;
+  }
+  .nftPreviewNavbarSeperator {
+    height: 4vh;
+    border: 1px solid #707070;
+    background-color: #707070;
+    box-sizing: border-box;
+    margin: 0px 9%;
+    display: none;
+  }
+  .nftPreviewNavbarIcons {
+    margin-right: 6%;
+  }
+  .nftPreviewNavbarIcons img {
+    height: 4vh;
+  }
+  .reponsiveHamburgerIcon {
+    display: inline;
+    font-size: 4vh;
+    color: var(--color-primary);
+  }
+  .responsiveSeaarchBar {
+    display: none;
+  }
+}
+@media only screen and (max-width: 618px) {
+
+  .responsiveSeaarchBar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* margin-left: 2.5%; */
+    margin-top: 1vh;
+    height: 5vh;
+    padding-right: 2vw;
+    padding-left: 3vw;
+  }
+  .nftPreviewSearchBoxContainerMobile {
+    border-radius: 4px;
+    font-family: "poppins";
+    background-color: rgb(248, 248, 248);
+    /* width: 65vw; */
+    width: 90%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: "poppins-medium";
+    font-size: 3.2vw;
+    height: 42px;
+    margin-top:25px ;
+  }
+  .nftPreviewSearchBoxContainerMobile input {
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: "poppins-medium";
+    font-size: 3.2vw;
+    padding-left: 14px;
+  }
+  .nftPreviewSearchIconContainerMobile {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    padding: 0px 1.4%;
+    font-size: 3.9vw;
+    box-sizing: border-box;
+    background-color: rgb(248, 248, 248);
+    border-radius: 4px;
+    margin-top: 25px;
+  }
+
+}
+@media only screen and (max-width: 480px) {
+  .nftPreviewNavbar {
+    width: 100vw;
+    height: 14.5%;
+    /* height: 70px; */
+    box-sizing: border-box;
+    box-shadow: #00000014 0px 3px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 7.5%;
+    /* border: 2px solid red; */
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    background-color: white;
+    overflow-y: hidden;
+  }
+  .nftPreviewNavbarInnerContainer {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 7.5%;
+    margin: 0.7vh 0px;
+  }
+  .nftPreviewNavbarContainer1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40%;
+  }
+  .nftPreviewNavbarContainer1 img {
+    height: 8vh;
+    /* width: 100px; */
+  }
+  .nftPreviewSearchBoxContainer {
+    display: none;
+  }
+  .nftPreviewSearchIconContainer {
+    display: none;
+  }
+
+  .nftPreviewNavbarContainer2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nftPreviewNavbarButtonsActive {
+    font-family: "poppins-bold";
+    font-size: 0.9vw;
+    border-bottom: 3px solid #366eef;
+    box-sizing: border-box;
+    height: 9.5vh;
+    display: flex;
+    align-items: center;
+    display: none;
+  }
+  .nftPreviewNavbarButtons {
+    font-family: "poppins";
+    font-size: 0.9vw;
+    box-sizing: border-box;
+    height: 9.5vh;
+    display: flex;
+    align-items: center;
+    color: #828282;
+    margin-left: 8%;
+    display: none;
+  }
+  .nftPreviewNavbarCreateButtons {
+    height: 5.3vh;
+    display: flex;
+    align-items: center;
+    background-color: #366eef;
+    color: white;
+    font-family: "poppins-medium";
+    font-size: 0.9vw;
+    padding: 0px 11%;
+    margin-left: 9%;
+    border-radius: 4px;
+    display: none;
+  }
+  .nftPreviewNavbarSeperator {
+    height: 4vh;
+    border: 1px solid #707070;
+    background-color: #707070;
+    box-sizing: border-box;
+    margin: 0px 9%;
+    display: none;
+  }
+  .nftPreviewNavbarIcons {
+    margin-right: 6%;
+  }
+  .nftPreviewNavbarIcons img {
+    height: 4vh;
+  }
+  .reponsiveHamburgerIcon {
+    display: inline;
+    font-size: 4vh;
+    color: var(--color-primary);
+  }
+
+}

@@ -1,0 +1,470 @@
+.collectionComponent {
+  width: 93%;
+  margin: 0px auto;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.collectionComponent::-webkit-scrollbar {
+  display: none;
+}
+.collectionDetailsContainer {
+  margin-top: 4vh;
+  height: 50vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  /* background-image: url("https://cdn.pixabay.com/photo/2021/12/08/15/53/traffic-6856075_960_720.jpg"); */
+  background-size: 100% 27vh;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.collectionDpContainer {
+  height: 9vw;
+  width: 9vw;
+  border-radius: 50%;
+
+  /* border: 3px solid white; */
+}
+.collectionDpContainer img {
+  height: 9vw;
+  width: 9vw;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.collectionNameContaienr {
+  font-size: 1.3vw;
+  font-family: 'poppins-semibold';
+  margin-top: 2vh;
+}
+.collectionDescriptionContainer {
+  width: 50%;
+  text-align: center;
+  font-family: 'poppins-medium';
+  font-size: 1vw;
+  color: #191919;
+  margin-top: 1vh;
+}
+
+.collectionDetailButtonContainer {
+  position: absolute;
+  top: 29vh;
+  right: 2vw;
+  /* border: 2px solid red; */
+  height: 6vh;
+  width: 22vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.button1CollectionDetails {
+  border: 2px solid var(--color-primary);
+  margin-right: 1vw;
+  border-radius: 4px;
+  font-size: 1vw;
+  font-family: 'poppins-semibold';
+  padding: 1% 6%;
+  color: var(--color-primary);
+}
+.button2CollectionDetails {
+  border: 2px solid var(--color-primary);
+  background-color: var(--color-primary);
+  border-radius: 4px;
+  font-size: 1vw;
+  font-family: 'poppins-semibold';
+  padding: 1% 8%;
+  color: white;
+}
+.collectionDetailssortingContainer {
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+.collectionDetailsSearchContainer {
+  /* border: 2px solid red; */
+}
+.collectionFilterContainer {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+}
+.saleTypeandPricingCollectionDetail {
+  width: 30% !important;
+}
+.CollectionDetailssaleTypeandPricingContainer {
+  /* border: 2px solid blue; */
+  width: 60%;
+}
+.sortByCollectionDetails {
+  width: 25%;
+}
+.sortByDivCollectionDetails {
+  width: 80% !important;
+  float: right;
+}
+.collectionDetailSearch {
+  border: 1px solid #d2d2d2;
+  padding: 0.5vh 1vw;
+  border-radius: 4px;
+  margin-right: 2vw;
+  display: flex;
+  align-items: center;
+  font-size: 0.9vw;
+  height: 42px;
+}
+.collectionDetailSearch input {
+  height: 100%;
+  outline: none;
+  border: none;
+  margin-right: 0.5vw;
+  font-size: 0.9vw;
+}
+.collectionDetailsNftsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:6.4%
+}
+.collectionDetailsNftEach {
+  margin-bottom: 2vh;
+  /* margin: 0px 1.4vw; */
+}
+.collectionNftEachTitleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding-right: 2%;
+}
+.collectionNftEachTitlePrice {
+  border: 1px solid #16ab6e;
+  color: #16ab6e;
+  font-size: 0.8vw;
+  font-family: 'poppins-semibold';
+  padding: 0.7% 1%;
+  border-radius: 6px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .collectionComponent {
+    width: 100%;
+    margin: 0px auto;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .collectionComponent::-webkit-scrollbar {
+    display: none;
+  }
+  .collectionDetailsContainer {
+    margin-top: 4vh;
+    height: 50vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url('https://cdn.pixabay.com/photo/2021/12/08/15/53/traffic-6856075_960_720.jpg');
+    background-size: 100% 53vh;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .collectionDpContainer {
+    height: 19vh;
+    width: 19vh;
+    border-radius: 50%;
+  }
+  .collectionDpContainer img {
+    height: 19vh;
+    width: 19vh;
+    border-radius: 50%;
+    border: 3px solid white;
+  }
+  .collectionNameContaienr {
+    font-size: 3.3vw;
+    font-family: 'poppins-semibold';
+    margin-top: 2vh;
+  }
+  .collectionDescriptionContainer {
+    width: 50%;
+    text-align: center;
+    font-family: 'poppins-medium';
+    font-size: 2.2vw;
+    color: #191919;
+  }
+
+  .collectionDetailButtonContainer {
+    position: absolute;
+    top: 29vh;
+    right: 2vw;
+    /* border: 2px solid red; */
+    height: 6vh;
+    width: 22vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .button1CollectionDetails {
+    border: 2px solid var(--color-primary);
+    margin-right: 1vw;
+    border-radius: 4px;
+    font-size: 2.2vw;
+    font-family: 'poppins-semibold';
+    padding: 1% 6%;
+    color: var(--color-primary);
+  }
+  .button2CollectionDetails {
+    border: 2px solid var(--color-primary);
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    font-size: 2vw;
+    font-family: 'poppins-semibold';
+    padding: 1% 8%;
+    color: white;
+  }
+  .collectionDetailssortingContainer {
+    display: flex !important;
+    justify-content: flex-start !important;
+    flex-direction: column !important;
+  }
+  .collectionDetailsSearchContainer {
+    width: 90%;
+    margin: 1vh 0px;
+    margin-left: 5%;
+  }
+  .collectionFilterContainer {
+    width: 90%;
+    margin: 1vh 0px;
+    margin-left: 5%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+  }
+  .saleTypeandPricingCollectionDetail {
+    width: 70% !important;
+    /* border: 2px solid red !important; */
+  }
+  .CollectionDetailssaleTypeandPricingContainer {
+    /* border: 2px solid blue; */
+    width: 60%;
+  }
+  .sortByCollectionDetails {
+    width: 25%;
+  }
+  .sortByDivCollectionDetails {
+    width: 100% !important;
+  }
+  .collectionDetailSearch {
+    border: 1px solid #d2d2d2;
+    padding: 0.5vh 1vw;
+    border-radius: 4px;
+    margin-right: 2vw;
+    display: flex;
+    align-items: center;
+    font-size: 1.9vw;
+  }
+  .collectionDetailSearch input {
+    height: 100%;
+    outline: none;
+    border: none;
+    margin-right: 0.5vw;
+    font-size: 1.9vw;
+    width: 97% !important;
+  }
+  .collectionDetailsNftsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .collectionDetailsNftEach {
+    margin-bottom: 2vh;
+    /* margin: 0px 2vw; */
+  }
+  .collectionNftEachTitleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-right: 2%;
+  }
+  .collectionNftEachTitlePrice {
+    border: 1px solid #16ab6e;
+    color: #16ab6e;
+    font-size: 1.7vw;
+    font-family: 'poppins-semibold';
+    padding: 0.7% 1%;
+    border-radius: 6px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .collectionComponent {
+    width: 100%;
+    margin: 0px auto;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .collectionComponent::-webkit-scrollbar {
+    display: none;
+  }
+  .collectionDetailsContainer {
+    margin-top: 4vh;
+    height: 70vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url('https://cdn.pixabay.com/photo/2021/12/08/15/53/traffic-6856075_960_720.jpg');
+    background-size: 100% 27vh;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .collectionDpContainer {
+    height: 19vh;
+    width: 19vh;
+    border-radius: 50%;
+  }
+  .collectionDpContainer img {
+    height: 19vh;
+    width: 19vh;
+    border-radius: 50%;
+    border: 3px solid white;
+  }
+  .collectionNameContaienr {
+    font-size: 5.3vw;
+    font-family: 'poppins-semibold';
+    margin-top: 2vh;
+  }
+  .collectionDescriptionContainer {
+    width: 70%;
+    text-align: center;
+    font-family: 'poppins-medium';
+    font-size: 4.2vw;
+    color: #191919;
+  }
+
+  .collectionDetailButtonContainer {
+    position: static;
+    /* top: 29vh;
+    right: 2vw; */
+    /* border: 2px solid red; */
+    height: 8vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .button1CollectionDetails {
+    border: 2px solid var(--color-primary);
+    margin-right: 3vw;
+    border-radius: 4px;
+    font-size: 4.2vw;
+    font-family: 'poppins-semibold';
+    padding: 1% 6%;
+    color: var(--color-primary);
+  }
+  .button2CollectionDetails {
+    border: 2px solid var(--color-primary);
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    font-size: 4.2vw;
+    font-family: 'poppins-semibold';
+    padding: 1% 8%;
+    color: white;
+  }
+  .collectionDetailssortingContainer {
+    display: flex !important;
+    justify-content: flex-start !important;
+    flex-direction: column !important;
+  }
+  .collectionDetailsSearchContainer {
+    width: 90%;
+    margin: 1vh 0px;
+    margin-left: 5%;
+  }
+  .collectionFilterContainer {
+    width: 90%;
+    margin: 1vh 0px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+  }
+  .saleTypeandPricingCollectionDetail {
+    width: 100% !important;
+    /* border: 2px solid red !important; */
+  }
+  .CollectionDetailssaleTypeandPricingContainer {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .sortByCollectionDetails {
+    width: 100%;
+  }
+  .sortByDivCollectionDetails {
+    width: 100% !important;
+    margin-left: -1%;
+  }
+  .collectionDetailSearch {
+    border: 1px solid #d2d2d2;
+    padding: 1.2vh 2vw;
+    width: 98%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 2vw;
+    display: flex;
+    align-items: center;
+    font-size: 3.9vw;
+  }
+  .collectionDetailSearch input {
+    height: 100%;
+    width: 90%;
+    outline: none;
+    border: none;
+    margin-right: 0.5vw;
+    font-size: 3.9vw;
+  }
+  .collectionDetailsNftsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .collectionDetailsNftEach {
+    margin-bottom: 2vh;
+    margin: 0px 2vw;
+  }
+  .collectionNftEachTitleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-right: 2%;
+  }
+  .collectionNftEachTitlePrice {
+    border: 1px solid #16ab6e;
+    color: #16ab6e;
+    font-size: 2.8vw;
+    font-family: 'poppins-semibold';
+    padding: 0.7% 1%;
+    border-radius: 6px;
+  }
+}

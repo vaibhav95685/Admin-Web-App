@@ -1,0 +1,906 @@
+.myitemsContainer {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.myItemsMainContainer {
+  height: 93.51851851851852vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+.items-container{
+  width:86%;
+  height:100%;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.myItemsBox {
+  padding-left:16vw;
+  padding-right:16vw;
+  /* margin-left: 18.06vw; */
+  /* width: 55.9375%; */
+  height: 100%;
+  box-sizing: border-box;
+  /* overflow-y: scroll; */
+  /* -ms-overflow-style: none;
+  scrollbar-width: none; */
+  /* position: relative; */
+}
+/* .myItemsBox::-webkit-scrollbar {
+  display: none;
+} */
+.myitemsheading {
+  margin-bottom: 1vh;
+}
+.sortingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1.5vh;
+  /* position: absolute;
+  top: 16.8vh;
+  left: 0px; */
+  width: 100%;
+  /* border: 2px solid red; */
+  position: relative;
+}
+.saleTypeandPricingContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  font-size: 0.729vw;
+  font-family: "poppins-medium";
+
+  /* width: 70%; */
+}
+.saleTypeandPricing {
+  display: flex;
+  height:42px;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border: 1px solid #d2d2d2;
+  padding: 0px 0.4vw;
+  border-radius:6px;
+  margin-right: 1.667vw;
+  /* height: 3.888888888888889vh; */
+  width: 11.563vw;
+}
+.sortByDiv {
+  margin-right: 0px;
+}
+.saleTypeandPricingType {
+  color: #858585;
+  /* margin-left: 0.35vw; */
+  font-size: 0.729vw;
+  /* padding: 1% 2%; */
+  border: none;
+  outline: none;
+  width: 50%;
+}
+.saleTypeandPricingTypeOption {
+  font-size: 0.729vw;
+}
+.saleTypeandPricingdowmarrow {
+  margin-left: 3vw;
+  cursor: pointer;
+}
+.sortBy {
+  font-size: 0.729vw;
+  font-family: "poppins-medium";
+}
+.myItemnftContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* margin-top: 5vh; */
+}
+.myItemnftEach {
+  border-radius: 13px;
+  padding-bottom: 1.5vh;
+  width: 16.3vw;
+  margin-top: 3vh;
+  background-color: #f8f8f8;
+}
+.myItemnftEach img {
+  width: 16.3vw;
+  height: 18vw;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+.myItemsNftTitle {
+  font-family: "poppins-bold";
+  font-size: 0.833vw;
+  margin-top: 0.6vh;
+  margin-left: 4%;
+  margin-right: 4%;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.myItemsNftsbiddetailContainer {
+  width: 100%;
+  padding: 0px 4%;
+  box-sizing: border-box;
+  font-size: 0.729vw;
+  color: #191919;
+  font-family: "poppins-medium";
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2vh 0px;
+}
+.nftLikes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "poppins-medium";
+}
+.nftLikes img {
+  width: 1vw;
+  height: 1vw;
+}
+.blankHeartIconMyitems {
+  font-size: 1vw;
+}
+.collectionEach {
+  border-radius: 13px;
+  padding-bottom: 0.5vh;
+  width: 16.3vw;
+  height: 16.5vw;
+  margin-top: 3vh;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.collectionEach img {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  margin-bottom: 1vh;
+}
+.myItemsPrimaryColour {
+  color: var(--color-primary);
+  font-family: "poppins-semibold";
+}
+.totalItemsCollection {
+  margin: 1.5vh 0px;
+}
+.bidDetails {
+  font-size: 0.729vw;
+}
+/* .PriceRangeBox {
+  position: sticky;
+} */
+.PriceRangeBoxDropDown {
+  margin-top: 16px;
+  border: 1px solid #f4f4f4;
+  width: 279px;
+  min-height: 201px;
+  padding: 11px 12px 22px 12px;
+  box-sizing: border-box;
+  /* background-color: white; */
+  position: absolute;
+  /* top: 4vh; */
+  /* left: 0px; */
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000001f;
+  border: 1px solid #F4F4F4;
+  border-radius: 4px;
+}
+.PriceRangeBoxDropDownCurrencyType {
+  border: 1px solid #D2D2D2;
+  border-radius: 4px;
+  /* width: 91.4%; */
+  width: 255px;
+  height: 42px;
+  /* margin: 2.037037037037vh auto; */
+  padding: 12px 5px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  justify-content: space-between;
+  margin-bottom: 0px;
+  /* top: 32px; */
+  background-color: white;
+}
+.PriceRangeBoxDropDownCurrencyTypeName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.maticDiv{
+  margin-top:20px ;
+}
+.bnbDiv{
+  margin-top: 18px;
+}
+.PriceRangeBoxDropDownCurrencyTypeName img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.currency-Name{
+  font:normal normal normal 14px/21px Poppins;
+
+}
+.PriceRangeBoxDropDownCurrencyTypeDropDown {
+  /* width: 91.4%; */
+  width: 255px;
+  height: 123px;
+  margin: 0.037037037037vh auto;
+  border: 1px solid #d2d2d2;
+  border-radius: 4px;
+  /* padding: 0px 1%; */
+  padding: 12px 5px 10px 10px;
+}
+.PriceRangeBoxDropDownCurrencyTypeDropDownType {
+  /* margin: 1.511111111111111vh 0px; */
+}
+.priceRangeMaxMinBox {
+  /* width: 91.4%; */
+  /* margin: 2.037037037037vh auto; */
+  margin-top: 11px;
+  /* padding: 11px 12px 22px 12px; */
+}
+.priceRangeMaxMinBoxInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.priceRangeMaxMinBoxInputMinMax {
+  width: 46%;
+  height: 42px;
+  padding: 11px 0px 11px 12px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #d2d2d2;
+  outline: none;
+  font: normal normal normal 14px/21px Poppins;
+}
+.toText{
+  font: normal normal normal 14px/21px Poppins;
+  margin-left: 3px;
+  margin-right: 6px;
+}
+.priceRangeMaxMinBoxButtonSecondary {
+  width: 46%;
+  height: 42px;
+  border: 1px solid #366eef;
+  color: #366eef;
+  /* padding-top: 4%;
+  padding-bottom: 4%; */
+  display: flex;
+  justify-content: center;
+  /* margin-top: 1.8518518518518516vh; */
+  margin-top: 20px;
+  align-items: center;
+  font: normal normal normal 16px/25px Poppins;
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.priceRangeMaxMinBoxButtonPrimary {
+  width: 46%;
+  height: 42px;
+  border: 1px solid #366eef;
+  color: white;
+  background-color: #366eef;
+  /* padding-top: 4%;
+  padding-bottom: 4%; */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  font: normal normal normal 16px/25px Poppins;
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.selectDisplayFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-right: 3%; */
+}
+.filterValueContainer {
+  display: flex;
+  flex: 1;
+  margin-left: 7%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #858585;
+}
+.sortByOptionBox {
+  margin-top: 1.111111111111111vh;
+  border: 1px solid #f4f4f4;
+  width: 11.7vw;
+  box-sizing: border-box;
+  background-color: white;
+  position: absolute;
+  top: 4vh;
+  right: 0px;
+}
+.sortByOptionBoxEach {
+  padding: 5% 5%;
+  cursor: pointer;
+}
+.sortByOptionBoxEach:hover {
+  background-color: #effbfe;
+}
+.pricingDropDown{
+  width: 100%;
+}
+.error-message{
+  color: red;
+    font-size: 11px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+@media only screen and (max-width: 1024px) {
+  .items-container{
+    width: 100%;
+    margin-left: 5%;
+    width: 90%;
+  }
+  .myitemsContainer {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  .myItemsMainContainer {
+    height: 95%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+  }
+  .myItemsBox {
+    padding-left: 0px;
+    padding-right: 0px;
+    /* margin-left: 5%; */
+    /* width: 90%; */
+    /* height: 100%; */
+    height: auto;
+    box-sizing: border-box;
+    /* overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none; */
+    /* position: relative; */
+  }
+  /* .myItemsBox::-webkit-scrollbar {
+    display: none;
+  } */
+  .myitemsheading {
+    margin-bottom: 1vh;
+  }
+  .sortingContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.5vh;
+    /* position: absolute;
+    top: 14vh;
+    left: 0px; */
+    width: 100%;
+  }
+  .saleTypeandPricingContainer {
+    display: flex;
+    align-items: flex-start;
+    height:"42px";
+    flex-direction: row;
+    font-size: 1.91vw;
+    font-family: "poppins-medium";
+
+    /* width: 70%; */
+  }
+  .saleTypeandPricing {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border: 1px solid #d2d2d2;
+    padding: 0.4vh 1vw;
+    margin-right: 2vw;
+    width: 27vw;
+  }
+  .saleTypeandPricingTypeOption {
+    font-size: 1.729vw;
+  }
+  .sortByDiv {
+    margin-right: 0px;
+  }
+  .saleTypeandPricingType {
+    color: #858585;
+    margin-left: 0.35vw;
+    font-size: 1.9vw;
+    /* padding: 1% 2%; */
+    border: none;
+    outline: none;
+  }
+  .saleTypeandPricingTypeOption {
+    padding: 1% 2%;
+  }
+  .saleTypeandPricingdowmarrow {
+    margin-left: 3vw;
+  }
+  .sortBy {
+    font-size: 1.91vw;
+    font-family: "poppins-medium";
+  }
+  .myItemnftContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin-top: 4.2vh; */
+  }
+  .myItemnftEach {
+    /* border: 2px solid red; */
+    border-radius: 13px;
+    padding-bottom: 0.5vh;
+    width: 40.3vw;
+    margin-top: 3vh;
+    background-color: #f8f8f8;
+  }
+  .myItemnftEach img {
+    /* width: 16.3vw; */
+    width: 40.3vw;
+    /* height: 9.36vw; */
+    height: 23.21463878326996vw;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+  }
+  .myItemsNftTitle {
+    font-family: "poppins-bold";
+    font-size: 2.1vw;
+    margin-top: 0.6vh;
+    margin-left: 4%;
+  }
+  .myItemsNftsbiddetailContainer {
+    width: 100%;
+    padding: 0px 4%;
+    box-sizing: border-box;
+    font-size: 1.9vw;
+    color: #191919;
+    font-family: "poppins-medium";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1vh 0px;
+    margin-bottom: 2vh;
+  }
+  .nftLikes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nftLikes img {
+    width: 2vw;
+    height: 2vw;
+  }
+  .blankHeartIconMyitems {
+    font-size: 2vw;
+  }
+  .collectionEach {
+    border-radius: 13px;
+    padding-bottom: 0.5vh;
+    padding-top: 1vh;
+    width: 26.3vw;
+    height: 26.5vw;
+    margin-top: 3vh;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .collectionEach img {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    margin-bottom: 1vh;
+  }
+  .myItemsPrimaryColour {
+    color: var(--color-primary);
+    font-family: "poppins-semibold";
+  }
+  .totalItemsCollection {
+    margin: 1.5vh 0px;
+  }
+  .bidDetails {
+    font-size: 1.7vw;
+  }
+  .PriceRangeBoxDropDown {
+    margin-top: 1.111111111111111vh;
+    border: 1px solid #f4f4f4;
+    width: 27.7vw;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  .PriceRangeBoxDropDownCurrencyType {
+    border: 1px solid #d2d2d2;
+    width: 91.4%;
+    margin: 2.037037037037vh auto;
+    padding: 1.111111111111111vh 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+  }
+  .PriceRangeBoxDropDownCurrencyTypeName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .PriceRangeBoxDropDownCurrencyTypeName img {
+    width: 3.042vw;
+    height: 3.042vw;
+    margin-right: 2%;
+  }
+  .PriceRangeBoxDropDownCurrencyTypeDropDown {
+    width: 91.4%;
+    margin: 0.037037037037vh auto;
+    border: 1px solid #d2d2d2;
+    padding: 0px 1%;
+  }
+  .PriceRangeBoxDropDownCurrencyTypeDropDownType {
+    margin: 1.511111111111111vh 0px;
+  }
+  .priceRangeMaxMinBox {
+    width: 91.4%;
+    margin: 2.037037037037vh auto;
+  }
+  .priceRangeMaxMinBoxInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .priceRangeMaxMinBoxInputMinMax {
+    width: 42%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #d2d2d2;
+    outline: none;
+    font-size: 2vw;
+  }
+  .priceRangeMaxMinBoxButtonSecondary {
+    width: 42%;
+    border: 1px solid #366eef;
+    color: #366eef;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8518518518518516vh;
+    font-family: "poppins-medium";
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .priceRangeMaxMinBoxButtonPrimary {
+    width: 42%;
+    border: 1px solid #366eef;
+    color: white;
+    background-color: #366eef;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8518518518518516vh;
+    font-family: "poppins-medium";
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .selectDisplayFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3%;
+  }
+  .sortByOptionBox {
+    margin-top: 1.111111111111111vh;
+    border: 1px solid #f4f4f4;
+    width: 27.7vw;
+    box-sizing: border-box;
+    background-color: white;
+    position: absolute;
+    /* top: 4vh; */
+    top: auto;
+    right: 0px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .myitemsContainer {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  
+  .myItemsMainContainer {
+    height: 95%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+  }
+  .items-container{
+    margin-left: 0px;
+    width: 100%;
+    padding:0px 2%;
+  }
+  .myItemsBox {
+    /* margin-left: 5%; */
+    /* width: 90%; */
+    height: 100%;
+    box-sizing: border-box;
+    /* overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none; */
+    /* position: relative; */
+  }
+  /* .myItemsBox::-webkit-scrollbar {
+    display: none;
+  } */
+  .myitemsheading {
+    margin-bottom: 1vh;
+  }
+  .sortingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1.5vh;
+    /* position: absolute;
+    top: 14vh;
+    left: 0px; */
+    width: 100%;
+  }
+  .saleTypeandPricingContainer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 3.91vw;
+    font-family: "poppins-medium";
+  }
+  .saleTypeandPricing {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border: 1px solid #d2d2d2;
+    padding: 0.4vh 3vw;
+    margin-top: 1vh;
+    width: 98%;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+  }
+
+  .saleTypeandPricingType {
+    color: #858585;
+    /* margin-left: 0.35vw; */
+    font-size: 3.9vw;
+    /* padding: 1% 2%; */
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+  }
+  .saleTypeandPricingTypeOption {
+    padding: 1% 2%;
+  }
+  .saleTypeandPricingdowmarrow {
+    margin-left: 3vw;
+  }
+  .sortBy {
+    font-size: 3.91vw;
+    font-family: "poppins-medium";
+  }
+  .myItemnftContainer {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 15vh; */
+  }
+  .myItemnftEach {
+    /* border: 2px solid red; */
+    border-radius: 13px;
+    padding-bottom: 0.5vh;
+    width: 86.3vw;
+    margin: 0px auto;
+    margin-top: 3vh;
+    background-color: #f8f8f8;
+  }
+  .myItemnftEach img {
+    /* width: 16.3vw; */
+    /* width: 26.3vw; */
+    width: 86.3vw;
+    /* height: 9.36vw; */
+    height: 49.71273764258555vw;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+  }
+  .myItemsNftTitle {
+    font-family: "poppins-bold";
+    font-size: 4.1vw;
+    margin-top: 0.6vh;
+    margin-left: 4%;
+  }
+  .myItemsNftsbiddetailContainer {
+    width: 100%;
+    padding: 0px 4%;
+    box-sizing: border-box;
+    font-size: 3.9vw;
+    color: #191919;
+    font-family: "poppins-medium";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1vh 0px;
+    margin-bottom: 2vh;
+  }
+  .nftLikes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nftLikes img {
+    width: 5vw;
+    height: 5vw;
+    margin-left: 1vw;
+  }
+  .blankHeartIconMyitems {
+    font-size: 5vw;
+  }
+  .collectionEach {
+    border-radius: 13px;
+    padding-bottom: 0.5vh;
+    padding-top: 1vh;
+    width: 86.3vw;
+    height: 76.5vw;
+    margin: 0px auto;
+    margin-top: 3vh;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .collectionEach img {
+    width: 37vw;
+    height: 37vw;
+    border-radius: 50%;
+    margin-bottom: 1vh;
+  }
+  .myItemsPrimaryColour {
+    color: var(--color-primary);
+    font-family: "poppins-semibold";
+  }
+  .totalItemsCollection {
+    margin: 1.5vh 0px;
+  }
+  .bidDetails {
+    font-size: 3.9vw;
+  }
+  .PriceRangeBoxDropDown {
+    margin-top: 1.111111111111111vh;
+    border: 1px solid #f4f4f4;
+    width: 98%;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  .PriceRangeBoxDropDownCurrencyType {
+    border: 1px solid #d2d2d2;
+    width: 91.4%;
+    margin: 2.037037037037vh auto;
+    padding: 1.111111111111111vh 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+  }
+  .PriceRangeBoxDropDownCurrencyTypeName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .PriceRangeBoxDropDownCurrencyTypeName img {
+    width: 5.042vw;
+    height: 5.042vw;
+    margin-right: 2%;
+  }
+  .PriceRangeBoxDropDownCurrencyTypeDropDown {
+    width: 91.4%;
+    margin: 0.037037037037vh auto;
+    border: 1px solid #d2d2d2;
+    padding: 0px 1%;
+  }
+  .PriceRangeBoxDropDownCurrencyTypeDropDownType {
+    margin: 1.511111111111111vh 0px;
+  }
+  .priceRangeMaxMinBox {
+    width: 91.4%;
+    margin: 2.037037037037vh auto;
+  }
+  .priceRangeMaxMinBoxInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .priceRangeMaxMinBoxInputMinMax {
+    width: 42%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #d2d2d2;
+    outline: none;
+    font-size: 4vw;
+  }
+  .priceRangeMaxMinBoxButtonSecondary {
+    width: 42%;
+    border: 1px solid #366eef;
+    color: #366eef;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8518518518518516vh;
+    font-family: "poppins-medium";
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .priceRangeMaxMinBoxButtonPrimary {
+    width: 42%;
+    border: 1px solid #366eef;
+    color: white;
+    background-color: #366eef;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8518518518518516vh;
+    font-family: "poppins-medium";
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .selectDisplayFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3%;
+  }
+  .priceRangeMobile {
+    width: 100%;
+  }
+  .saleTypeandPricingTypeOption {
+    font-size: 3.729vw;
+  }
+  .sortByOptionBox {
+    margin-top: 1.111111111111111vh;
+    border: 1px solid #f4f4f4;
+    width: 98%;
+    box-sizing: border-box;
+    background-color: white;
+    position: absolute;
+    /* top:4vh; */
+    top:auto;
+    right: auto; 
+    /* right: 0px; */
+  }
+}
+

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="ether" transform="translate(-553 -163)">
+    <rect id="Rectangle_1139" data-name="Rectangle 1139" width="20" height="20" transform="translate(553 163)" fill="none"/>
+    <g id="Layer_x0020_1" transform="translate(558 165)">
+      <g id="_1421394342400">
+        <g id="Group_723" data-name="Group 723">
+          <path id="Path_756" data-name="Path 756" d="M383.6,0l-.1.345V10.37l.1.1,4.653-2.75Z" transform="translate(-378.949)" fill="#62688f"/>
+          <path id="Path_757" data-name="Path 757" d="M4.653,0,0,7.721l4.653,2.75V0Z" fill="#8a92b2"/>
+          <path id="Path_758" data-name="Path 758" d="M387.3,727.639l-.057.07v3.571l.057.167,4.656-6.557Z" transform="translate(-382.644 -716.287)" fill="#62688f"/>
+          <path id="Path_759" data-name="Path 759" d="M4.653,731.447v-3.808L0,724.89Z" transform="translate(0 -716.287)" fill="#8a92b2"/>
+          <path id="Path_760" data-name="Path 760" d="M392.07,477.2l4.653-2.75-4.653-2.115Z" transform="translate(-387.417 -466.724)" fill="#454a75"/>
+          <path id="Path_761" data-name="Path 761" d="M0,474.445l4.653,2.75V472.33Z" transform="translate(0 -466.724)" fill="#62688f"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

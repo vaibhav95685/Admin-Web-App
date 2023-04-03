@@ -1,0 +1,190 @@
+@media only screen and (min-width: 480px) {
+  .navbarContainerMobile {
+    display: none;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  .navbarContainerResponsive {
+    /* width: 34%; */
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--color-navbarbg);
+    padding-top: 6vh;
+    position: absolute;
+    /* top: 5%; */
+    left: 0%;
+    z-index: 3;
+  }
+  .navbar-linkResponsive {
+    margin-top: 4vh;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    margin-left: 5%;
+    padding: 5% 10%;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #9398a2;
+    font-size: 2vw;
+  }
+  .navbar-link-activeResponsive {
+    margin-top: 4vh;
+    color: #0fc2e9;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    margin-left: 5%;
+    padding: 5% 10%;
+    background-color: #212f3d;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 2vw;
+  }
+  .navbarIconResponsive {
+    /* height: 3.6vh; */
+    width: 3.5vw;
+    margin-right: 8%;
+  }
+  .secondaryLinkContainerResponsive {
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: 5%;
+    padding: 2% 11%;
+  }
+  .secondaryLinkResponsive {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #9398a2;
+    /* font-size: 1.6vh; */
+    font-size: 1.7vw;
+    margin-top: 2vh;
+  }
+  .secondaryLinkactiveResponsive {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0fc2e9;
+    /* font-size: 1.6vh; */
+    font-size: 1.7vw;
+    margin-top: 2vh;
+  }
+  .secondaryLinkDivResponsive {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .secondaryLinkIconsResponsive {
+    width: 2vw;
+    margin-right: 5%;
+  }
+  .navbarContainerMobile {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .navbarContainerResponsive {
+    display: none;
+  }
+  .navbarContainerMobile {
+    box-sizing: border-box;
+    width: 100%;
+    height: 95%;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    z-index: 3;
+    background-color: var(--color-navbarbg);
+    padding-top: 6vh;
+  }
+  .navbarLinkContainer1Mobile {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+  }
+  .navbarLinkMobile {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 3% 6%;
+    padding-right: 2%;
+    margin-top: 2vh;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .navbarLinkMobileBorder {
+    border-bottom: 1px solid rgba(82, 96, 116, 0.363);
+  }
+  .navbarIconMobile {
+    width: 10.5vw;
+    margin-right: 4%;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+  .navbarLinkMobileText {
+    color: #9398a2;
+    font-size: 5vw;
+    font-family: "Open Sans", sans-serif;
+  }
+  .navbarLinkMobileArrow {
+    font-size: 9vw;
+    /* margin-top: 0.3vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 20%;
+  }
+  .navbarLinkContainer1MobileBack {
+    margin-right: 6vw;
+  }
+  .navbarLinkMobileArrowLeft {
+    width: 10%;
+    margin-right: 0px;
+  }
+  .secondaryLinkMobile {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #9398a2;
+    /* font-size: 1.6vh; */
+    font-size: 4.7vw;
+    margin-top: 2vh;
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: 10%;
+    /* border: 2px solid red; */
+  }
+  .secondaryLinkactiveMobile {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0fc2e9;
+    /* font-size: 1.6vh; */
+    font-size: 4.7vw;
+    margin-top: 2vh;
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: 10%;
+  }
+  .secondaryLinkDivMobile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 1.5vh 0px;
+  }
+  .secondaryLinkIconsMobile {
+    width: 7vw;
+    margin-right: 3%;
+  }
+}

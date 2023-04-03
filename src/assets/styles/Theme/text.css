@@ -1,0 +1,64 @@
+.textcol17 {
+  color: #171725;
+}
+.decornone {
+  text-decoration: none;
+  color: inherit;
+}
+.textcenter {
+  text-align: center;
+}
+.activetab {
+  color: #0058ff !important;
+}
+.nonactivetab {
+  color: #171725;
+}
+.textcolE0 {
+  color: #e01736;
+}
+.textcolF01 {
+  color: #f0142f;
+}
+.textcol7e {
+  color: #7e84a3;
+}
+.textwhite {
+  color: white;
+}
+.textcol13 {
+  color: #131523;
+}
+.textwhite {
+  color: white;
+}
+.font16 {
+  font-size: 16px;
+}
+.font14 {
+  font-size: 14px;
+}
+.font12 {
+  font-size: 16px;
+}
+.poppins-normal {
+  font-family: "poppins-normal";
+}
+.poppins-medium {
+  font-family: "poppins-medium";
+}
+
+.bold600 {
+  font-weight: 600;
+}
+.boldbold {
+  font-weight: bold;
+}
+
+/* ---------------------------Letter spacing */
+.letspace07 {
+  letter-spacing: 0.07px;
+}
+.letspace06 {
+  letter-spacing: 0.06px;
+}

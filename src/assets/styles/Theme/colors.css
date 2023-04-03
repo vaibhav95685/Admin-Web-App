@@ -1,0 +1,27 @@
+.bgblue {
+  background-color: #0058ff;
+}
+.bordnone {
+  border: none;
+}
+
+.bgblack{
+  background-color: black;
+}
+.bgwhite {
+  background-color: white;
+}
+.bgnotsubmit {
+  background-color: #7fabff;
+}
+.bgsubmit {
+  background-color: #0058ff;
+}
+.bgnoncontent {
+  background-color: #f4f7fc;
+}
+
+.slectedtabback {
+  background-color: #0062ff;
+  opacity: 0.05;
+}

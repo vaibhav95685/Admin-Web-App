@@ -1,0 +1,37 @@
+.blockedmanageContentListColumn1 {
+  width: 37.61766835626358%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.blockedmanageContentListColumn2 {
+  width: 25.72%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.blockedmanageContentListColumn3 {
+  width: 34.57639391745112%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.blockedmanageContentListColumn4 {
+  width: 27.8059377262853%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.blockedmanageContentListColumn1 img {
+  width: 2.2vw !important;
+  height: 2.2vw !important;
+  border-radius: 50%;
+  margin-right: 0.4vw;
+}
+.blockedmanageContentListColumn2 img {
+  width: 2.2vw !important;
+  height: 2.2vw !important;
+  border-radius: 50%;
+  margin-right: 0.4vw;
+}

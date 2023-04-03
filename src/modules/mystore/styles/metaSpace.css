@@ -1,0 +1,127 @@
+.banner {
+    width: 100%;
+    height: 273px;
+}
+.metaspace-link-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D0D0D0;
+    border-radius: 12px;
+    opacity: 1;
+    margin-top: 10px;
+}
+.metaspace-link-text{
+    color: "#959595";
+    font-size: "14px";
+    font-weight: 600;
+}
+.assets-heading-div{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 16px;
+}
+.assets-text{
+    color: #333333;
+    font-size: "16px";
+    font-weight: bold;
+}
+.button{
+    width: 80px;
+    height: 32px;
+    border-radius: 6px;
+    background: #016DD9;
+    color:#ffffff;
+    border:none;
+}
+.assets-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 116px;
+    border: 1px solid #D0D0D0;
+    border-radius: 12px;
+    opacity: 1;
+    margin-top:12px;
+    text-align: center;
+}
+.no-nft-text{
+    color: #585858;
+    font-size: 14px;
+    font-weight: 600;
+}
+.metaSpace-link-message{
+    color: #333333;
+    font-size: 12px;
+    margin-top: 12px;
+}
+.metaspaceButton{
+width: 245px;
+height: 40px;
+}
+
+.metaspace-write-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #d0d0d0;
+    text-align: center;
+    padding: 2.2%;
+}
+.metaspaceCaption{
+    font-family: 'poppins';
+    font-size: 0.729vw;
+}
+.request-container{
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 12px;
+width: 375px;
+height: 197px;
+padding: 30px 25px 36px 32px;
+position: absolute;
+top: 21%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+.request-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.request-sent{
+text-align: left;
+font: normal normal bold 18px/27px Poppins;
+letter-spacing: 0px;
+margin: 0;
+padding: 0;
+color: #191919;
+}
+.label-request{
+    margin: 0;
+    padding: 0;
+    margin-top: 12px;
+text-align: left;
+font: normal normal normal 16px/25px Poppins;
+letter-spacing: 0px;
+color: #585858;
+}
+.request-ok-button{
+    background: #016DD9 0% 0% no-repeat padding-box;
+border-radius: 6px;
+width: 116px;
+height: 40px;
+border: none;
+color: #ffffff;
+}
+.button-div-request{
+    display: flex;
+    width: 100%;
+    margin-top: 31px;
+    justify-content: flex-end;
+}

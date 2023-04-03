@@ -1,0 +1,510 @@
+.billingpageContainer {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.billingPageMainContainer {
+  height: 93.51851851851852vh;
+  width: 52%;
+  margin: 0px auto;
+  padding: 7.037037037037036vh 0px;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.billingPageHeading1 {
+  font-size: 1.68vw;
+  font-family: "poppins-bold";
+  color: #333333 !important;
+}
+.billingPageHeading2 {
+  font-size: 1.15vw;
+  font-family: "poppins-medium";
+  color: #333333 !important;
+  /* font-weight: 500; */
+}
+.billingPeriodContainer {
+  border-bottom: 1px solid #d9dfeb;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  /* justify-content: space-between; */
+}
+.billingPeriod {
+  padding: 1% 1.5%;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "poppins";
+  color: black;
+  text-decoration: none;
+  /* width: 120px; */
+}
+.billingPeriod--active {
+  padding: 1% 1.5%;
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
+  font-family: "poppins-semibold";
+  box-sizing: border-box;
+  /* font-size: 18px; */
+  font-size: 18px;
+}
+.myItemsBox .myNFTS{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.myNFTS .ButtonDiv .MyNFTsButton{
+  padding: 9px 28px 8px 29px;
+  background: #016DD9 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  font: normal normal 600 16px/25px Poppins;
+}
+.myNFTS .ButtonDiv .MyBulkNFTsButton{
+  padding: 9px 28px 8px 29px;
+  background: #016DD9 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  border: none;
+  margin-right: 5px;
+  color: #FFFFFF;
+  font: normal normal 600 16px/25px Poppins;
+}
+
+
+.plansContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 4.9%;
+  padding-bottom: 32px;
+}
+.plansEach {
+  margin-top: 5vh;
+  width: 15.625vw;
+  height: 16.61vw;
+  background-color: #f3f5f9;
+  border-radius: 7px;
+  overflow: hidden;
+  text-decoration: none;
+}
+.plansEach:hover {
+  background-color: #016dd9;
+}
+
+.plansEachCircle {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  /* border: 2px solid red; */
+  background-color: #71a7ee3d;
+  position: relative;
+  top: -1.9vw;
+  left: 9.6vw;
+}
+.Nodata{
+  display:flex;
+  justify-content:space-between;
+  margin:auto;
+}
+
+.plansHeading {
+  font-family: "poppins-bold";
+  position: relative;
+  font-size: 1.458vw;
+  top: -5.6vw;
+  left: 1.5vw;
+  color: var(--color-primary);
+}
+.plansEach:hover .plansHeading {
+  color: white;
+}
+.plansHeading2 {
+  font-family: "poppins-semibold";
+  position: relative;
+  font-size: 0.938vw;
+  top: -5.3vw;
+  left: 1.5vw;
+  color: #333333;
+}
+.plansEach:hover .plansHeading2 {
+  color: white;
+}
+.chooseplanButton {
+  /* border: 2px solid red; */
+  background-color: var(--color-primary);
+  color: white;
+  font-family: "poppins-medium";
+  border-radius: 6px;
+  position: relative;
+  font-size: 0.833vw;
+  top: -4.15vw;
+  width: 85%;
+  margin: 0px auto;
+  box-sizing: border-box;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* left: 1.5vw; */
+}
+.hoverDisplay {
+  display: none;
+}
+.plansEach:hover .nonhoverDisplay {
+  display: none;
+}
+.plansEach:hover .hoverDisplay {
+  display: flex;
+}
+.plansEach:hover .chooseplanButton {
+  background-color: white;
+  color: var(--color-primary);
+}
+.planFeature {
+  position: relative;
+  width: 85%;
+  top: -3.4vw;
+  margin: 1.111111111111111vh auto;
+  font-family: "poppins-medium";
+  font-size: 0.833vw;
+  color: #585858;
+}
+.plansEach:hover .planFeature {
+  color: white;
+}
+.upgradePlanButton {
+  /* width: 150px !important; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.billingSecondaryText {
+  margin-top: 1.4814814814814814vh;
+}
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  .billingpageContainer {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  .billingPageMainContainer {
+    height: 95%;
+    width: 82%;
+    margin: 0px auto;
+    padding: 8vh 0px;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .billingPageHeading1 {
+    font-size: 2.68vw;
+    font-family: "poppins-bold";
+  }
+  .billingPageHeading2 {
+    font-size: 2.15vw;
+    font-family: "poppins-medium";
+    /* font-weight: 500; */
+  }
+  .billingPeriodContainer {
+    border-bottom: 1px solid #d9dfeb;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /* justify-content: space-between; */
+  }
+  .billingPeriod {
+    margin-top: 1vh;
+    padding: 1.5% 2.5%;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    font-size: 2.05vw;
+    font-family: "poppins-semibold";
+  }
+  .billingPeriod--active {
+    color: var(--color-primary);
+    border-bottom: 2px solid var(--color-primary);
+  }
+  .plansContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .plansEach {
+    margin-top: 5vh;
+    width: 25vw;
+    height: 27vw;
+    background-color: #f3f5f9;
+    border-radius: 7px;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  .plansEach:hover {
+    background-color: #016dd9;
+  }
+
+  .plansEachCircle {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    background-color: #71a7ee3d;
+    position: relative;
+    top: -2.2vw;
+    left: 15.6vw;
+  }
+  .plansHeading {
+    font-family: "poppins-bold";
+    position: relative;
+    font-size: 2.5vw;
+    top: -7.6vw;
+    left: 1.5vw;
+    color: var(--color-primary);
+  }
+  .plansEach:hover .plansHeading {
+    color: white;
+  }
+  .plansHeading2 {
+    font-family: "poppins-semibold";
+    position: relative;
+    font-size: 2.16vw;
+    top: -7.3vw;
+    left: 1.5vw;
+    color: black;
+  }
+  .plansEach:hover .plansHeading2 {
+    color: white;
+  }
+  .chooseplanButton {
+    /* border: 2px solid red; */
+    background-color: var(--color-primary);
+    color: white;
+    font-family: "poppins-medium";
+    border-radius: 6px;
+    position: relative;
+    font-size: 2vw;
+    top: -6.5vw;
+    width: 85%;
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* left: 1.5vw; */
+  }
+  .hoverDisplay {
+    display: none;
+  }
+  .plansEach:hover .nonhoverDisplay {
+    display: none;
+  }
+  .plansEach:hover .hoverDisplay {
+    display: flex;
+  }
+  .plansEach:hover .chooseplanButton {
+    background-color: white;
+    color: var(--color-primary);
+  }
+  .planFeature {
+    position: relative;
+    width: 85%;
+    top: -5.2vw;
+    margin: 0px auto;
+    font-family: "poppins-medium";
+    font-size: 1.44vw;
+    color: #585858;
+  }
+  .plansEach:hover .planFeature {
+    color: white;
+  }
+  .upgradePlanButton {
+    /* width: 17.813vw !important; */
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .billingSecondaryText {
+    margin-top: 1.4814814814814814vh;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .billingpageContainer {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  .ButtonDiv{
+    display: flex;
+  }
+  .ButtonDiv .MyBulkNFTsButton{
+    font: normal normal 600 8px/25px Poppins!important;
+    height: 30px;
+    padding: 0px!important;
+    width: 73px;
+  }
+  .ButtonDiv .MyNFTsButton{
+    font: normal normal 600 8px/25px Poppins!important;
+    height: 30px;
+    padding: 0px!important;
+    width: 73px;
+  }
+  .billingPageMainContainer {
+    height: 95%;
+    width: 82%;
+    margin: 0px auto;
+    padding: 8vh 0px;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+  }
+  .billingPageHeading1 {
+    font-size: 5.18vw;
+    font-family: "poppins-bold";
+  }
+  .billingPageHeading2 {
+    font-size: 3.15vw;
+    text-align: center;
+    font-family: "poppins-medium";
+    /* font-weight: 500; */
+  }
+  .billingPeriodContainer {
+    border-bottom: 1px solid #d9dfeb;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .billingPeriod {
+    margin-top: 1vh;
+    padding: 1.5% 2.5%;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    font-size: 4.05vw;
+    font-family: "poppins-semibold";
+  }
+  .billingPeriod--active {
+    color: var(--color-primary);
+    border-bottom: 2px solid var(--color-primary);
+  }
+  .plansContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+  .plansEach {
+    margin-top: 5vh;
+    width: 45vw;
+    height: 47vw;
+    background-color: #f3f5f9;
+    border-radius: 7px;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  .plansEach:hover {
+    background-color: #016dd9;
+  }
+  .plansEachCircle {
+    width: 32vw;
+    height: 32vw;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    background-color: #71a7ee3d;
+    position: relative;
+    top: -13.2vw;
+    left: 27.6vw;
+  }
+  .plansHeading {
+    font-family: "poppins-bold";
+    position: relative;
+    font-size: 5.5vw;
+    top: -22.6vw;
+    left: 4.5vw;
+    color: var(--color-primary);
+  }
+  .plansEach:hover .plansHeading {
+    color: white;
+  }
+  .plansHeading2 {
+    font-family: "poppins-semibold";
+    position: relative;
+    font-size: 4.16vw;
+    top: -22.3vw;
+    left: 4.5vw;
+    color: black;
+  }
+  .plansEach:hover .plansHeading2 {
+    color: white;
+  }
+  .chooseplanButton {
+    /* border: 2px solid red; */
+    background-color: var(--color-primary);
+    color: white;
+    font-family: "poppins-medium";
+    border-radius: 6px;
+    position: relative;
+    font-size: 3vw;
+    top: -21.5vw;
+    width: 85%;
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* left: 1.5vw; */
+  }
+  .hoverDisplay {
+    display: none;
+  }
+  .plansEach:hover .nonhoverDisplay {
+    display: none;
+  }
+  .plansEach:hover .hoverDisplay {
+    display: flex;
+  }
+  .plansEach:hover .chooseplanButton {
+    background-color: white;
+    color: var(--color-primary);
+  }
+  .planFeature {
+    position: relative;
+    width: 85%;
+    top: -20.2vw;
+    margin: 0px auto;
+    font-family: "poppins-medium";
+    font-size: 2.5vw;
+    color: #585858;
+  }
+  .plansEach:hover .planFeature {
+    color: white;
+  }
+  .upgradePlanButton {
+    /* width: 27.813vw !important; */
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

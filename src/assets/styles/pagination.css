@@ -1,0 +1,40 @@
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.paginationnumber {
+  /* border: 1px solid black; */
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 27px;
+  /* height: 60px; */
+  /* position: absolute;
+  bottom: 1vh; */
+}
+
+.gallery {
+  background: #eee;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8c8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}

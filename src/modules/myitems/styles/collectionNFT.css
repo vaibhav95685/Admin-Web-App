@@ -1,0 +1,9 @@
+.containerSecond select,
+select option {
+  color:  #999999;
+}
+
+select option:disabled
+ {
+  color: #999999;
+}

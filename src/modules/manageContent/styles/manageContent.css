@@ -1,0 +1,393 @@
+.manageContentContainer {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.manageContentMainContainer {
+  height: 93.51851851851852vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+.manageContentFormContainer {
+  flex: 1;
+}
+.manageContentInnerContainer {
+  width: 92.3%;
+  /* border: 2px solid red; */
+  margin: 0px auto;
+}
+.manageContentHeading2Container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.manageContentHeading2marginTop {
+  margin-top: 1.574074074074074vh !important;
+}
+.manageContentListContainer {
+  width: 100%;
+  position: relative;
+  min-height: 65vh;
+  box-sizing: border-box;
+  margin-top: 2.5925925925925926vh;
+  padding: 4.685185185185185vh 0vw;
+  padding-bottom: 5.555555555555555vh;
+  /* padding-right: 4.479vw; */
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+}
+.no-data-found{
+  position: absolute;
+  align-items: center;
+  height: 88%;
+}
+.manageContentListHeaderContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1vh;
+  padding:0px 20px
+}
+.manageContentListColumn1 {
+  width: 23.59%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.manageContentListColumn2 {
+  width: 25.72%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.manageContentListColumn3 {
+  width: 21.72%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.manageContentListColumn4 {
+  /* width: 22.73%; */
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.manageContentListColumn1 img {
+  width: 2.2vw;
+  height: 2.2vw;
+  border-radius: 50%;
+  margin-right: 0.4vw;
+}
+.manageContentListColumn2 img {
+  width: 2.2vw;
+  height: 2.2vw;
+  border-radius: 50%;
+  margin-right: 0.4vw;
+}
+.manageContentListColumntitle {
+  font-size: 0.833vw;
+  color: #191919;
+  font-family: "poppins-medium";
+}
+.manageContentListColumntitlePrimaryColor {
+  color: var(--color-primary);
+  cursor: pointer;
+}
+.manageContentListColumntitleGreenColor {
+  color: #139d21;
+  cursor: pointer;
+}
+
+.manageContentListEachContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* margin: 1vh 0px; */
+  padding: 1.6vh 20px;
+}
+.daysOfReport {
+  padding: 1%;
+  font-size: 0.729vw;
+  font-family: "poppins-medium";
+}
+.canUploadDropdownManageContent {
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+  width: 20%;
+  position: absolute;
+  top: 24vh;
+  right: 3vw;
+  background-color: white;
+}
+.canUploadDropdownEachManageContent {
+  padding: 3% 5%;
+  box-sizing: border-box;
+  font-size: 0.729vw;
+  font-family: "poppins-medium";
+  cursor: pointer;
+}
+.manageContentgrey {
+  font-size: 0.729vw;
+  color: #585858;
+}
+.manageContentListNoofreports {
+  font-family: "poppins-medium" !important;
+}
+@media only screen and (max-width: 1024px) {
+  .manageContentContainer {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  .manageContentMainContainer {
+    height: 95%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+  }
+  .manageContentFormContainer {
+    flex: 1;
+  }
+  .manageContentInnerContainer {
+    width: 92.3%;
+    /* border: 2px solid red; */
+    margin: 0px auto;
+  }
+  .manageContentHeading2Container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .manageContentListContainer {
+    width: 100%;
+    max-height: 65vh;
+    box-sizing: border-box;
+    margin-top: 2vh;
+    padding: 2% 0%;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    overflow: scroll;
+  }
+  .manageContentListHeaderContainer {
+    width: 170%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1vh;
+    padding:0px 20px
+  }
+  .manageContentListColumn1 {
+    width: 24%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .manageContentListColumn2 {
+    width: 24%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .manageContentListColumn3 {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .manageContentListColumn4 {
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .manageContentListColumn1 img {
+    width: 5.2vw;
+    height: 5.2vw;
+    border-radius: 50%;
+    margin-right: 1.4vw;
+  }
+  .manageContentListColumn2 img {
+    width: 5.2vw;
+    height: 5.2vw;
+    border-radius: 50%;
+    margin-right: 1.4vw;
+  }
+  .manageContentListColumntitle {
+    font-size: 2vw;
+    color: #191919;
+    font-family: "poppins-medium";
+  }
+  .manageContentListColumntitlePrimaryColor {
+    color: var(--color-primary);
+    cursor: pointer;
+  }
+  .manageContentListColumntitleGreenColor {
+    color: #139d21;
+    cursor: pointer;
+  }
+
+  .manageContentListEachContainer {
+    width: 170%;
+    display: flex;
+    flex-direction: row;
+    /* margin: 1vh 0px; */
+    padding: 1.6vh 20px;
+  }
+  .daysOfReport {
+    padding: 1%;
+    font-size: 2vw;
+    font-family: "poppins-medium";
+  }
+  .canUploadDropdownManageContent {
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    width: 20%;
+    position: absolute;
+    top: 18vh;
+    right: 4vw;
+    background-color: white;
+  }
+  .canUploadDropdownEachManageContent {
+    padding: 3% 5%;
+    box-sizing: border-box;
+    font-size: 2vw;
+    font-family: "poppins-medium";
+  }
+  .manageContentgrey {
+    color: #585858;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .manageContentContainer {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  .manageContentMainContainer {
+    height: 95%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+  }
+  .manageContentFormContainer {
+    flex: 1;
+  }
+  .manageContentInnerContainer {
+    width: 92.3%;
+    /* border: 2px solid red; */
+    margin: 0px auto;
+  }
+  .manageContentHeading2Container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .manageContentListContainer {
+    width: 100%;
+    max-height: 65vh;
+    box-sizing: border-box;
+    margin-top: 2vh;
+    padding: 2% 0%;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    overflow: scroll;
+  }
+  .manageContentListHeaderContainer {
+    width: 340%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1vh;
+    padding:0px 20px
+
+  }
+  .manageContentListColumn1 {
+    width: 24%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .manageContentListColumn2 {
+    width: 24%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .manageContentListColumn3 {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .manageContentListColumn4 {
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .manageContentListColumn1 img {
+    width: 8.2vw;
+    height: 8.2vw;
+    border-radius: 50%;
+    margin-right: 1.4vw;
+  }
+  .manageContentListColumn2 img {
+    width: 8.2vw;
+    height: 8.2vw;
+    border-radius: 50%;
+    margin-right: 1.4vw;
+  }
+  .manageContentListColumntitle {
+    font-size: 4vw;
+    color: #191919;
+    font-family: "poppins-medium";
+  }
+  .manageContentListColumntitlePrimaryColor {
+    color: var(--color-primary);
+    cursor: pointer;
+  }
+  .manageContentListColumntitleGreenColor {
+    color: #139d21;
+    cursor: pointer;
+  }
+
+  .manageContentListEachContainer {
+    width: 340%;
+    display: flex;
+    flex-direction: row;
+    /* margin: 1vh 0px; */
+    padding: 1.6vh 20px;
+  }
+  .daysOfReport {
+    padding: 1%;
+    font-size: 3vw;
+    font-family: "poppins-medium";
+  }
+  .canUploadDropdownManageContent {
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    width: 40%;
+    position: absolute;
+    top: 18vh;
+    right: 4vw;
+    background-color: white;
+  }
+  .canUploadDropdownEachManageContent {
+    padding: 3% 5%;
+    box-sizing: border-box;
+    font-size: 3vw;
+    font-family: "poppins-medium";
+  }
+  .manageContentgrey {
+    color: #585858;
+  }
+}

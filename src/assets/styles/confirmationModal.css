@@ -1,0 +1,208 @@
+.confirmationModalContainer {
+  width: 35%;
+  height: 20%;
+  margin-top: 2%;
+  margin-left: 32.5%;
+  margin-right: 32.5%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: none;
+  border-radius: 12px;
+  padding: 2%;
+}
+.confirmationModalHeading {
+  font-size: 1.3vw;
+  color: #333333;
+  font-family: 'poppins-bold';
+}
+.confirmationModalText {
+  font-size: 0.9vw;
+  color: #585858;
+  font-family: 'poppins-medium';
+}
+.confirmationModalButtonContainer {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.confirmationModalButton {
+  margin-top: 2%;
+  padding: 1.5% 6%;
+  margin-right: 3%;
+  border-radius: 6px;
+  font-family: 'poppins-semibold';
+  font-size: 0.9vw;
+  cursor: pointer;
+}
+.modalSecondaryButton {
+  background-color: #e3e3e3;
+  color: #191919;
+}
+.modalPrimaryButton {
+  background-color: var(--color-primary);
+  color: white;
+}
+.confirmationModalHeading2 {
+  font-size: 0.9vw;
+  color: #333333;
+  font-family: 'poppins-semibold';
+  margin-top: 2vh;
+  align-self: flex-start;
+}
+.dialog-container-confirmation-modal{
+  margin: 0px auto;
+  width: 384px;
+  height: 193px;
+  padding: 30px 36px 31.5px 32px;
+  margin-top: 137px;
+}
+.modal-dialog-button-container{
+  margin-top: 31.5px;
+}
+.modal-dialog-heading{
+  font: normal normal 600 18px/27px Poppins;
+  letter-spacing: 0px;
+  color: #333333;
+}
+.modal-dialog-text{
+  font: normal normal normal 16px/25px Poppins-medium;
+  letter-spacing: 0px;
+  color: #333333;
+  margin-top: 12px;
+}
+.OkButton-modal{
+    width: 116px;
+    text-align: center;
+    height: 40px;
+    font: normal normal 600 16px/25px Poppins;
+    border: none;
+    margin: 0px;
+}
+.CancelButton-modal{
+  width: 116px;
+  text-align: center;
+  height: 40px;
+  font: normal normal 600 16px/25px Poppins;
+  border: none;
+  margin-top: 0px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .confirmationModalContainer {
+    width: 55%;
+    height: 14%;
+    margin-top: 2%;
+    margin-left: 16.5%;
+    /* margin-right: 22.5%; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: none;
+    border-radius: 12px;
+    padding: 2%;
+  }
+  .confirmationModalHeading {
+    font-size: 3vw;
+    color: #333333;
+    font-family: 'poppins-bold';
+  }
+  .confirmationModalText {
+    font-size: 2.2vw;
+    color: #585858;
+    font-family: 'poppins-medium';
+  }
+  .confirmationModalButtonContainer {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .confirmationModalButton {
+    margin-top: 2%;
+    padding: 1.5% 6%;
+    margin-right: 3%;
+    border-radius: 6px;
+    font-family: 'poppins-semibold';
+    font-size: 1.9vw;
+  }
+  .modalSecondaryButton {
+    background-color: #e3e3e3;
+    color: #191919;
+  }
+  .modalPrimaryButton {
+    background-color: var(--color-primary);
+    color: white;
+  }
+  .confirmationModalHeading2 {
+    font-size: 2.3vw;
+    color: #333333;
+    font-family: 'poppins-semibold';
+    margin-top: 2vh;
+    align-self: flex-start;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .confirmationModalContainer {
+    width: 68%;
+    height: 14%;
+    margin-top: 2%;
+    margin-left: -2.5%;
+    /* margin-right: 22.5%; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: none;
+    border-radius: 12px;
+    padding: 2% 6%;
+  }
+  .confirmationModalHeading {
+    font-size: 4vw;
+    color: #333333;
+    font-family: 'poppins-bold';
+  }
+  .confirmationModalText {
+    font-size: 3vw;
+    margin-top: 0.5vh;
+    color: #585858;
+    font-family: 'poppins-medium';
+  }
+  .confirmationModalButtonContainer {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .confirmationModalButton {
+    margin-top: 2%;
+    padding: 1.5% 6%;
+    margin-right: 3%;
+    border-radius: 6px;
+    font-family: 'poppins-semibold';
+    font-size: 3.9vw;
+  }
+  .modalSecondaryButton {
+    background-color: #e3e3e3;
+    color: #191919;
+  }
+  .modalPrimaryButton {
+    background-color: var(--color-primary);
+    color: white;
+  }
+  .confirmationModalHeading2 {
+    font-size: 3.2vw;
+    color: #333333;
+    font-family: 'poppins-semibold';
+    margin-top: 2vh;
+    align-self: flex-start;
+  }
+}

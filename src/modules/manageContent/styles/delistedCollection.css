@@ -1,0 +1,143 @@
+.manageContentDelistedListColumn1 {
+  width: 22.59%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+.manageContentDelistedListColumn2 {
+  width: 21.28%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+.manageContentDelistedListColumn3 {
+  width: 17.42%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+.manageContentDelistedListColumn4 {
+  width: 13.77%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+.manageContentDelistedListColumn5 {
+  width: 24.94%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.manageContentDelistedListColumn1 img {
+  width: 2.2vw;
+  height: 2.2vw;
+  border-radius: 50%;
+  margin-right: 0.4vw;
+}
+.manageContentDelistedListColumn2 img {
+  width: 2.2vw;
+  height: 2.2vw;
+  border-radius: 50%;
+  margin-right: 0.4vw;
+}
+@media only screen and (max-width: 1024px) {
+  .manageContentDelistedListColumn1 {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .manageContentDelistedListColumn2 {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .manageContentDelistedListColumn3 {
+    width: 16%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .manageContentDelistedListColumn4 {
+    width: 16%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .manageContentDelistedListColumn5 {
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  .manageContentDelistedListColumn1 img {
+    width: 5.2vw;
+    height: 5.2vw;
+    border-radius: 50%;
+    margin-right: 0.4vw;
+  }
+  .manageContentDelistedListColumn2 img {
+    width: 5.2vw;
+    height: 5.2vw;
+    border-radius: 50%;
+    margin-right: 0.4vw;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .manageContentDelistedListColumn1 {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .manageContentDelistedListColumn2 {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .manageContentDelistedListColumn3 {
+    width: 16%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .manageContentDelistedListColumn4 {
+    width: 16%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .manageContentDelistedListColumn5 {
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .manageContentDelistedListColumn1 img {
+    width: 8.2vw;
+    height: 8.2vw;
+    border-radius: 50%;
+    margin-right: 1.4vw;
+  }
+  .manageContentDelistedListColumn2 img {
+    width: 8.2vw;
+    height: 8.2vw;
+    border-radius: 50%;
+    margin-right: 1.4vw;
+  }
+}

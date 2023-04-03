@@ -1,0 +1,125 @@
+.notificationContainer {
+  width: 50%;
+  margin: 0px auto;
+}
+.notificationTypeContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.notificationTypeEach {
+  width: 48%;
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+  padding: 9px 16px 18px 16px;
+  box-sizing: border-box;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.notificationTypeTitle {
+  font-family: 'poppins-medium';
+  font-size: 0.729vw;
+}
+.notificationTypeDescription {
+  color: #585858;
+  font-family: 'poppins-medium';
+  font-size: 0.729vw;
+  margin-top: 3px;
+}
+.notificationSaveButton {
+  border-radius: 6px;
+  padding: 1% 8%;
+  background-color: #016dd9;
+  font-size: 0.833vw;
+  color: white;
+  font-family: 'poppins-medium';
+  cursor: pointer;
+}
+@media only screen and (max-width: 1024px) {
+  .notificationContainer {
+    width: 93%;
+    margin: 0px auto;
+  }
+  .notificationTypeContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .notificationTypeEach {
+    width: 48%;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    padding: 1% 2%;
+    box-sizing: border-box;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .notificationTypeTitle {
+    font-family: 'poppins-medium';
+    font-size: 2.1vw;
+  }
+  .notificationTypeDescription {
+    color: #585858;
+    font-family: 'poppins-medium';
+    font-size: 1.6vw;
+  }
+  .notificationSaveButton {
+    border-radius: 6px;
+    padding: 1% 8%;
+    background-color: #016dd9;
+    font-size: 2vw;
+    color: white;
+    font-family: 'poppins-medium';
+  }
+}
+@media only screen and (max-width: 480px) {
+  .notificationContainer {
+    width: 93%;
+    margin: 0px auto;
+  }
+  .notificationTypeContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .notificationTypeEach {
+    width: 100%;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    padding: 1% 2%;
+    box-sizing: border-box;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .notificationTypeTitle {
+    font-family: 'poppins-medium';
+    font-size: 4.1vw;
+    margin-top: 0.5vh;
+  }
+  .notificationTypeDescription {
+    color: #585858;
+    font-family: 'poppins-medium';
+    font-size: 3.6vw;
+    margin-top: 0.5vh;
+  }
+  .notificationSaveButton {
+    border-radius: 6px;
+    padding: 1% 8%;
+    background-color: #016dd9;
+    font-size: 4vw;
+    color: white;
+    font-family: 'poppins-medium';
+  }
+}

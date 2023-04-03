@@ -1,0 +1,90 @@
+.navbarContainer {
+  width: 14%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: var(--color-navbarbg);
+  padding-top: 6vh;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+.navbar-link {
+  margin-top: 4vh;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+  margin-left: 5%;
+  padding: 5% 10%;
+  box-sizing: border-box;
+  background-color: transparent;
+  color: #9398a2;
+  font-size: 0.938vw;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.navbar-link-active {
+  margin-top: 4vh;
+  color: #0fc2e9;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+  margin-left: 5%;
+  padding: 5% 10%;
+  background-color: #212f3d;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-size: 0.938vw;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.navbarIcon {
+  /* height: 3.6vh; */
+  width: 1.146vw;
+  margin-right: 0.833vw;
+}
+.secondaryLinkContainer {
+  box-sizing: border-box;
+  width: 90%;
+  margin-left: 5%;
+  padding: 2% 11%;
+}
+.secondaryLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #9398a2;
+  /* font-size: 1.6vh; */
+  font-size: 0.729vw;
+  margin-top: 2vh;
+  font-family: "Open Sans", sans-serif;
+}
+.secondaryLinkactive {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #0fc2e9;
+  /* font-size: 1.6vh; */
+  font-size: 0.729vw;
+  margin-top: 2vh;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.secondaryLinkDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.secondaryLinkIcons {
+  /* height: 2.5vh; */
+  width: 0.938vw;
+  margin-right: 0.833vw;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbarContainer {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="89" height="89" viewBox="0 0 89 89">
+  <g id="Wallet" transform="translate(-330 -1397)">
+    <rect id="Rectangle_1009" data-name="Rectangle 1009" width="89" height="89" transform="translate(330 1397)" fill="rgba(255,255,255,0)"/>
+    <g id="Wallet-2" data-name="Wallet" transform="translate(333 1406)">
+      <path id="Path_642" data-name="Path 642" d="M94.93,40.166,67,68.094a7.17,7.17,0,0,1-10.14,0L28.935,40.166a7.17,7.17,0,0,1,0-10.14L56.863,2.1A7.17,7.17,0,0,1,67,2.1L94.93,30.027a7.169,7.169,0,0,1,0,10.14" transform="translate(-14.261 0)" fill="#cbd3e7"/>
+      <rect id="Rectangle_981" data-name="Rectangle 981" width="82.768" height="70.194" transform="translate(0 0)" fill="none"/>
+      <path id="Path_645" data-name="Path 645" d="M68.094,40.166,40.166,68.094a7.17,7.17,0,0,1-10.14,0L2.1,40.166a7.17,7.17,0,0,1,0-10.14L30.027,2.1a7.17,7.17,0,0,1,10.14,0L68.094,30.027a7.169,7.169,0,0,1,0,10.14" transform="translate(0 0)" fill="#366eef"/>
+      <path id="Path_648" data-name="Path 648" d="M24.307,81.626h0a7.051,7.051,0,0,1-.009-9.972L45.691,50.22a7.051,7.051,0,0,1,9.982,9.963L34.279,81.616a7.051,7.051,0,0,1-9.972.009" transform="translate(-11.818 -25.589)" fill="#aec4f7"/>
+      <path id="Path_649" data-name="Path 649" d="M81.351,58.759a4.567,4.567,0,1,1-4.567-4.567,4.568,4.568,0,0,1,4.567,4.567" transform="translate(-38.378 -28.8)" fill="#071b4a"/>
+      <rect id="Rectangle_986" data-name="Rectangle 986" width="82.768" height="70.194" transform="translate(0 0)" fill="none"/>
+      <rect id="Rectangle_987" data-name="Rectangle 987" width="82.768" height="70.194" transform="translate(0 0)" fill="none"/>
+    </g>
+  </g>
+</svg>

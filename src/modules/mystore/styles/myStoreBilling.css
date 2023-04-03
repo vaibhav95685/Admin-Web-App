@@ -1,0 +1,198 @@
+.myStoreBillingPage {
+  width: 31.25vw;
+  margin-left: 26.354vw;
+}
+.billingDetailsContainer {
+  margin-top: 2vh;
+  border-radius: 12px;
+  background-color: #f3f5f9;
+  padding-top: 2.8703703703703702vh;
+  padding-bottom: 0.4074074074074074vh;
+  /* width: 29.688vw; */
+  width: 100%;
+}
+.billingDetails {
+  width: 90%;
+  margin-left: 1.852vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.1vw;
+  padding-bottom: 2.0370370370370368vh;
+}
+.billingDetailsTitle {
+  font-family: "poppins-semibold";
+  font-size: 1.04vw;
+}
+.billingDetailscontent {
+  font-family: "poppins-medium";
+  color: #585858;
+  font-size: 1.04vw;
+  width: 38%;
+}
+.myStoreBillingsaveButtonContainer {
+  margin: 3vh 0px;
+  margin-bottom: 5vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+}
+.myStoreBillingsaveButton {
+  /* border: 2px solid red; */
+  border-radius: 6px;
+  padding: 1.7% 6%;
+  background-color: #016dd9;
+  font-size: 0.833vw;
+  color: white;
+  font-family: "poppins-semibold";
+  cursor: pointer;
+}
+.myStoreUpgradeBillingContainer {
+  width: 52vw;
+  margin-left: 17vw;
+}
+.upgradeyourplan {
+  margin-bottom: 2vh;
+}
+.plansEach-active {
+  color: white;
+  background-color: var(--color-primary);
+}
+.plansHeading-active {
+  color: white;
+}
+.chooseplanButton-active {
+  border: 1px SOLID WHITE;
+}
+@media only screen and (max-width: 1024px) {
+  .myStoreBillingPage {
+    width: 71.25vw;
+    margin: 0px auto;
+  }
+  .billingDetailsContainer {
+    margin-top: 2vh;
+    border-radius: 12px;
+    background-color: #f3f5f9;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+  }
+  .billingDetails {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.1vw;
+    padding-top: 0.7vh;
+    padding-bottom: 0.7vh;
+  }
+  .billingDetailsTitle {
+    font-family: "poppins-semibold";
+    font-size: 2.2vw;
+  }
+  .billingDetailscontent {
+    font-family: "poppins-medium";
+    color: #585858;
+    font-size: 2.2vw;
+  }
+  .myStoreBillingsaveButtonContainer {
+    margin: 3vh 0px;
+    margin-bottom: 5vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .myStoreBillingsaveButton {
+    /* border: 2px solid red; */
+    border-radius: 6px;
+    padding: 1.7% 9%;
+    background-color: #016dd9;
+    font-size: 2vw;
+    color: white;
+    font-family: "poppins-medium";
+    cursor: pointer;
+  }
+  .myStoreUpgradeBillingContainer {
+    width: 82vw;
+    margin-left: 8vw;
+  }
+  .upgradeyourplan {
+    margin-bottom: 2vh;
+  }
+  .plansEach-active {
+    color: white;
+    background-color: var(--color-primary);
+  }
+  .plansHeading-active {
+    color: white;
+  }
+  .chooseplanButton-active {
+    border: 1px SOLID WHITE;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .myStoreBillingPage {
+    width: 91.25vw;
+    margin: 0px auto;
+  }
+  .billingDetailsContainer {
+    margin-top: 2vh;
+    border-radius: 12px;
+    background-color: #f3f5f9;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+  }
+  .billingDetails {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 3.1vw;
+    padding-top: 0.7vh;
+    padding-bottom: 0.7vh;
+  }
+  .billingDetailsTitle {
+    font-family: "poppins-semibold";
+    font-size: 4vw;
+  }
+  .billingDetailscontent {
+    font-family: "poppins-medium";
+    color: #585858;
+    font-size: 4vw;
+  }
+  .myStoreBillingsaveButtonContainer {
+    margin: 3vh 0px;
+    margin-bottom: 5vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .myStoreBillingsaveButton {
+    /* border: 2px solid red; */
+    border-radius: 6px;
+    padding: 1.7% 6%;
+    background-color: #016dd9;
+    font-size: 4vw;
+    color: white;
+    font-family: "poppins-medium";
+    cursor: pointer;
+  }
+  .myStoreUpgradeBillingContainer {
+    width: 82vw;
+    margin-left: 8vw;
+  }
+  .upgradeyourplan {
+    margin-bottom: 2vh;
+  }
+  .plansEach-active {
+    color: white;
+    background-color: var(--color-primary);
+  }
+  .plansHeading-active {
+    color: white;
+  }
+  .chooseplanButton-active {
+    border: 1px SOLID WHITE;
+  }
+}

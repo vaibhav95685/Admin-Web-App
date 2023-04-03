@@ -1,0 +1,545 @@
+.dashboardContainer {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.dashboardMainContainer {
+  height: 93.51851851851852vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+.dashBoardInnerContainer {
+  flex: 1;
+  padding: 0px 5.185185185185185vw;
+  overflow: auto;
+  /* -ms-overflow-style: none; */
+  /* scrollbar-width: none; */
+}
+/* .dashBoardInnerContainer::-webkit-scrollbar {
+  display: none;
+} */
+.statisticsContainer {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+.statisticsEach {
+  border-radius: 10px;
+  width: 17.5vw;
+  height: 13.28vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 2.2vh;
+  box-sizing: border-box;
+}
+.statisticsEach1 {
+  background-image: url('../../../assets/totalnftcreated.png');
+  background-size: contain;
+}
+.statisticsEach2 {
+  background-image: url('../../../assets/totalnftsold.png');
+  background-size: contain;
+}
+.statisticsEach3 {
+  background-image: url('../../../assets/totalrevenue.png');
+  background-size: contain;
+}
+.statisticsEach4 {
+  background-image: url('../../../assets/totalusers.png');
+  background-size: contain;
+}
+.staticTitle {
+  font-size: 1.146vw;
+  font-family: 'poppins-medium';
+}
+.staticNumber {
+  font-size: 1.667vw;
+  font-family: 'poppins-semibold';
+}
+.graphContainer {
+  margin-top: 1.5vh;
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+}
+.graphTimePeriod {
+  width: 8vw;
+  margin-top: 2.9085872576177287vh;
+  margin-left: 65vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.graphTimePeriodEach {
+  /* width: 2.8vw;
+  height: 2.8vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.833vw;
+  padding: 0.9695290858725761vh;
+  font-family: 'poppins-medium';
+  background-color: #f2f2f2;
+  color: #585858;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.graphTimePeriodEach--active {
+  background-color: var(--color-primary);
+  color: white;
+  cursor: pointer;
+}
+.dashBoardTopCollectionListContainer {
+  width: 100%;
+  max-height: 65vh;
+  box-sizing: border-box;
+  margin-top: 2vh;
+  padding: 2% 0%;
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+}
+.dashBoardTopCollectionHeaderContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2vh;
+  padding: 10px;
+}
+.dashBoardTopCollectionEachContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* margin: 1vh 0px; */
+  padding: 1.6vh 0px;
+}
+.dashBoardTopCollectionListColumn1 {
+  width: 28%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dashBoardTopCollectionListColumn1 img {
+  width: 2.2vw;
+  height: 2.2vw;
+  border-radius: 50%;
+  margin-right: 0.4vw;
+}
+.dashBoardTopCollectionListColumn2 {
+  width: 24%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dashBoardTopCollectionListColumn3 {
+  width: 24%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dashBoardTopCollectionListColumn4 {
+  width: 24%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dashBoardTopNftsListColumn1 {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 20px;
+  /* gap: 5 */
+}
+.dashBoardTopNftsListColumn2 {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dashBoardTopNftsListColumn3 {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dashBoardTopNftsListColumn1 img {
+  width: 2.2vw;
+  height: 2.2vw;
+  border-radius: 50%;
+  margin-right: 0.9vw;
+}
+.dashBoardLastTable {
+  margin-bottom: 4vh;
+}
+.dashbordGraphContainer {
+  width: 103%;
+  height: 50vh;
+  /* border: 2px solid red; */
+}
+
+.dashboard-div{
+  margin-top: 76px;
+}
+@media only screen and (max-width: 1024px) {
+  .dashboardContainer {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  .dashboardMainContainer {
+    height: 95%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+  }
+  .dashBoardInnerContainer {
+    flex: 1;
+    padding: 0px 4%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .dashBoardInnerContainer::-webkit-scrollbar {
+    display: none;
+  }
+  .statisticsContainer {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2vh;
+  }
+  .statisticsEach {
+    border-radius: 10px;
+    width: 44.5vw;
+    height: 33.77vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 2.2vh;
+    margin-top: 2vh;
+    box-sizing: border-box;
+  }
+  .statisticsEach1 {
+    background-image: url('../../../assets/totalnftcreated.png');
+    background-size: contain;
+  }
+  .statisticsEach2 {
+    background-image: url('../../../assets/totalnftsold.png');
+    background-size: contain;
+  }
+  .statisticsEach3 {
+    background-image: url('../../../assets/totalrevenue.png');
+    background-size: contain;
+  }
+  .statisticsEach4 {
+    background-image: url('../../../assets/totalusers.png');
+    background-size: contain;
+  }
+  .staticTitle {
+    font-size: 2.8vw;
+    font-family: 'poppins-medium';
+  }
+  .staticNumber {
+    font-size: 4vw;
+    font-family: 'poppins-semibold';
+  }
+  .graphContainer {
+    margin-top: 2vh;
+  }
+  .graphTimePeriod {
+    width: 21vw;
+    margin-left: 67vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .graphTimePeriodEach {
+    width: 5.8vw;
+    height: 4.8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1vw;
+    font-family: 'poppins-medium';
+    background-color: #f2f2f2;
+    color: #585858;
+    border-radius: 5px;
+    white-space:nowrap;
+  }
+  .graphTimePeriodEach--active {
+    background-color: var(--color-primary);
+    color: white;
+  }
+  .dashBoardTopCollectionListContainer {
+    width: 100%;
+    max-height: 65vh;
+    box-sizing: border-box;
+    margin-top: 2vh;
+    padding: 2% 0%;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    overflow: scroll;
+  }
+  .dashBoardTopCollectionHeaderContainer {
+    width: 170%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vh;
+  }
+  .dashBoardTopCollectionEachContainer {
+    width: 170%;
+    display: flex;
+    flex-direction: row;
+    /* margin: 1vh 0px; */
+    padding: 1.6vh 0px;
+  }
+  .dashBoardTopCollectionListColumn1 {
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .dashBoardTopCollectionListColumn1 img {
+    width: 5.2vw;
+    height: 5.2vw;
+    border-radius: 50%;
+    margin-right: 1.4vw;
+  }
+  .dashBoardTopCollectionListColumn2 {
+    width: 24%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .dashBoardTopCollectionListColumn3 {
+    width: 24%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .dashBoardTopCollectionListColumn4 {
+    width: 24%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .dashBoardTopNftsListColumn1 {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .dashBoardTopNftsListColumn2 {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .dashBoardTopNftsListColumn3 {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .dashBoardTopNftsListColumn1 img {
+    width: 5.2vw;
+    height: 5.2vw;
+    border-radius: 50%;
+    margin-right: 1.4vw;
+  }
+  .dashBoardLastTable {
+    margin-bottom: 4vh;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .dashboardContainer {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  .dashboardMainContainer {
+    height: 95%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+  }
+  .dashBoardInnerContainer {
+    flex: 1;
+    padding: 0px 4%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .dashBoardInnerContainer::-webkit-scrollbar {
+    display: none;
+  }
+  .statisticsContainer {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2vh;
+  }
+  .statisticsEach {
+    border-radius: 10px;
+    width: 84.5vw;
+    height: 64.125vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 2.2vh;
+    margin-top: 2vh;
+    margin-left: 3.875vw;
+    box-sizing: border-box;
+  }
+  .statisticsEach1 {
+    background-image: url('../../../assets/totalnftcreated.png');
+    background-size: contain;
+  }
+  .statisticsEach2 {
+    background-image: url('../../../assets/totalnftsold.png');
+    background-size: contain;
+  }
+  .statisticsEach3 {
+    background-image: url('../../../assets/totalrevenue.png');
+    background-size: contain;
+  }
+  .statisticsEach4 {
+    background-image: url('../../../assets/totalusers.png');
+    background-size: contain;
+  }
+  .staticTitle {
+    font-size: 4.8vw;
+    font-family: 'poppins-medium';
+  }
+  .staticNumber {
+    font-size: 8.5vw;
+    font-family: 'poppins-semibold';
+  }
+  .graphContainer {
+    margin-top: 2vh;
+  }
+  .graphTimePeriod {
+    width: 21vw;
+    margin-left: 67vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .graphTimePeriodEach {
+    width: 5.8vw;
+    height: 4.8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1vw;
+    font-family: 'poppins-medium';
+    background-color: #f2f2f2;
+    color: #585858;
+    border-radius: 5px;
+  }
+  .graphTimePeriodEach--active {
+    background-color: var(--color-primary);
+    color: white;
+  }
+  .dashBoardTopCollectionListContainer {
+    width: 100%;
+    max-height: 65vh;
+    box-sizing: border-box;
+    margin-top: 2vh;
+    padding: 2% 0%;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    overflow: scroll;
+  }
+  .dashBoardTopCollectionHeaderContainer {
+    width: 250%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vh;
+  }
+  .dashBoardTopCollectionEachContainer {
+    width: 250%;
+    display: flex;
+    flex-direction: row;
+    /* margin: 1vh 0px; */
+    padding: 1.6vh 0px;
+  }
+  .dashBoardTopCollectionListColumn1 {
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .dashBoardTopCollectionListColumn1 img {
+    width: 8.2vw;
+    height: 8.2vw;
+    border-radius: 50%;
+    margin-right: 1.4vw;
+  }
+  .dashBoardTopCollectionListColumn2 {
+    width: 24%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .dashBoardTopCollectionListColumn3 {
+    width: 24%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .dashBoardTopCollectionListColumn4 {
+    width: 24%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .dashBoardTopNftsListColumn1 {
+    /* width: 30%; */
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 0px;
+  }
+  .dashBoardTopNftsListColumn2 {
+    /* width: 30%; */
+    /* width: 24%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .dashBoardTopNftsListColumn3 {
+    /* width: 40%; */
+    /* width: 24%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .dashBoardTopNftsListColumn1 img {
+    width: 8.2vw;
+    height: 8.2vw;
+    border-radius: 50%;
+    margin-right: 1.4vw;
+  }
+  .dashBoardLastTable {
+    margin-bottom: 4vh;
+  }
+}
+
+.words-break{
+  word-break: break-all;
+}

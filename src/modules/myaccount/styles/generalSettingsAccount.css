@@ -1,0 +1,173 @@
+.contactNoContainer {
+  display: flex;
+  flex-direction: row;
+}
+.countryCode {
+  font-family: "poppins-medium";
+  /* width: 15%; */
+  width: 13.25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 0.833vw;
+}
+.contactNoAccount {
+  width: 80%;
+  /* margin-left: 5%; */
+  margin-left: 2.5%;
+}
+.countryCodeContainer {
+  height: 20vh;
+  overflow-y: scroll;
+}
+.countryCodeEach {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  font-size: 0.833vw;
+
+  font-family: "poppins-medium";
+}
+.countryCodeSearchInputContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.countryCodeSearchInput {
+  /* margin-left: 22%; */
+  width: 90%;
+  margin-right: 2.5%;
+  box-sizing: border-box;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: 1px solid rgb(206, 206, 206);
+  padding: 2%;
+  border-radius: 6px;
+  font-size: 0.833vw;
+  font-family: "poppins-medium";
+  outline: none;
+}
+.countryCodeSearchInputIcon {
+  cursor: pointer;
+}
+.countryCodeList {
+  width: 20%;
+  padding: 1% 0px;
+  margin-right: 0.5vw;
+  font-size: 0.833vw;
+  font-family: "poppins-medium";
+}
+.myStoreHeading3ContactNO {
+  /* margin-top: 2.962962962962963vh !important; */
+  margin-top: 2.811vh !important;
+  /* margin-bottom: 1.111111111111111vh !important; */
+}
+.removeLogo{
+  color:red;
+  cursor:pointer;
+  font-size:0.733vw;
+  margin-left:13%;
+}
+@media only screen and (max-width: 1024px) {
+  .contactNoContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .countryCode {
+    font-family: "poppins-medium";
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.9vw;
+  }
+  .contactNoAccount {
+    width: 80%;
+    margin-left: 5%;
+  }
+  .countryCodeContainer {
+    height: 20vh;
+    overflow-y: scroll;
+  }
+  .countryCodeEach {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    font-size: 2vw;
+  }
+  .countryCodeList {
+    width: 20%;
+    padding: 1% 0px;
+    margin-right: 0.5vw;
+  }
+}
+.contactNoContainer input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.contactNoContainer input[type=number] {
+  -moz-appearance: textfield;
+}
+@media only screen and (max-width: 480px) {
+  .contactNoContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .countryCode {
+    font-family: "poppins-medium";
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 3.4vw;
+  }
+  .contactNoAccount {
+    width: 80%;
+    margin-left: 5%;
+  }
+  .countryCodeContainer {
+    height: 20vh;
+    overflow-y: scroll;
+  }
+  .countryCodeEach {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    font-size: 4vw;
+  }
+  .countryCodeList {
+    width: 20%;
+    padding: 1% 0px;
+    margin-right: 0.5vw;
+  }
+}
+.nameContainer{
+  width: 97.66%;
+  border: none!important;
+  height: 40px;
+}
+.nameInputField{
+  border: 1px solid #d0d0d0 !important;
+  border-radius: 6px !important;
+}
+.emailContainer{
+    width: 97.66%;
+    border: none!important;
+    height: 40px;
+}
+.emailInputField{
+  border: 1px solid #d0d0d0 !important;
+  border-radius: 6px !important;
+}
+.contanctNumber{
+  width: 81.95% !important;
+  border: none !important;
+  height: 40px;
+}
+.contactInputField{
+  border: 1px solid #d0d0d0 !important;
+  border-radius: 6px !important;
+}

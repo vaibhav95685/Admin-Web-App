@@ -1,0 +1,76 @@
+.walletPage {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.walletPageMainContainer {
+  width: 100%;
+  height: 93.51851851851852vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 7.037037037037036vh;
+}
+.walletHeading {
+  font: normal normal bold 22px/33px Poppins;
+}
+.walletLine {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins";
+  color: #333333;
+  margin-top: 0.5vh;
+}
+.walletBox {
+  width: 216px;
+  height: 216px;
+  border: 1px solid #707070;
+  border-radius: 24px;
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.walletBox :hover{
+  cursor:pointer;
+}
+.walletBox img {
+  width: 100px;
+  height: 100px;
+}
+.walletBoxTitle {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Poppins";
+  color: #333333;
+  margin-top: 2.1925925925925926vh;
+}
+.walletBox:hover {
+  border: 1px solid #f0f0f0;
+  box-shadow: #0000001f 0px 3px 6px;
+}
+@media screen and (max-width:601px){
+  .walletPageMainContainer{
+    margin-top: 28px;
+  }
+  .walletLine{
+    text-align: center;
+  }
+  .walletPageMainContainer{
+    width: 66.4%;
+    margin:auto;
+  }
+  .walletBox{
+    width: 57.6vw;
+    height: 57.6vw;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px){
+  .walletPageMainContainer{
+    margin-top: 76px;
+  }
+}

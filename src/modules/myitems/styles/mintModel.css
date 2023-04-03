@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+  }
+  .mint-mod-outer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+  }
+  .mint-modal-rp{
+    position: absolute;
+    /* width: 32.8%; */
+    /* left: 35.6%; */
+    background-color: white;
+    opacity: 1 !important;
+    /* top: 126px; */
+  }
+  .mint-abs{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color: #191919; */
+    backdrop-filter: blur(0px) contrast(0.1);
+  }
+  .mint-outer {
+    /* border: 1px solid red; */
+    width: 33%;
+    /* height: 555px; */
+    /* height: 100%; */
+    position: absolute;
+    border: 1px solid rgb(143, 143, 143);
+    top: 5%;
+    left: 33%;
+    background-color: white;
+    padding: 27px 27px 32px 23px;
+    border-radius: 6px;
+  }
+  
+  .mintbody {
+    display: flex;
+    flex-direction: column;
+  }
+  .completelistin {
+    font-size: 18px;
+    line-height: 27px;
+    font-family: "poppins-bold";
+    color: #191919;
+  }
+  .abstractillusion {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin-top: 30.75px;
+    width: 100%;
+  }
+  .abstractillusion > img {
+    width: 142.49px;
+    /* height: 157.49px; */
+    object-fit: cover;
+  }
+  
+  .abstracttitle {
+    color: #366eef;
+    letter-spacing: 0.32px;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "poppins-semibold";
+  }
+  .abstractposter {
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.44px;
+    font-family: "poppins-semibold";
+    color: #191919;
+    margin-top: 5px;
+  }
+  .abstractillusioncontent {
+    /* border: 1px solid blue; */
+    width: 70%;
+  }
+  .ethprice {
+    font-size: 18px;
+    font-family: "poppins-medium";
+    letter-spacing: 0.36px;
+    color: #191919;
+    margin-top: 10px;
+  }
+  .checkpostcontainer {
+    margin-top: 41.7px;
+  }
+  
+  .checkpost {
+    display: flex;
+    border-left: 1px dashed #366EEF;
+    position: relative;
+    flex-direction: row-reverse;
+    width: 97%;
+    /* height: 80px; */
+    margin-left: 18px;
+  }
+  .checkpost:last-child{
+    border-left: none;
+  }
+  .checkvalue {
+    position: absolute;
+    left: -2.8%;
+    top: 3%;
+    width: 32px;
+    height: 32px;
+  }
+  .checkimg{
+    position: absolute;
+    left: -3%;
+    top: 0%;
+    width: 32px;
+    height: 32px;
+  }
+  .checkposttext {
+    border-radius: 12px;
+    width: 95%;
+    /* height: 70%; */
+    background-color: #f8f8f8;
+    padding: 12px 12px 13px 18px;
+    margin-bottom: 37px;
+  }
+  .checkvaluetext {
+    font-size: 22px;
+    line-height: 33px;
+    font-family: "poppins";
+    color: #191919;
+    background-color: #F8F8F8;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .noborder {
+    border: 0px !important;
+  }
+  
+  .checkposttext .heading{
+    font-family: 'poppins-medium';
+    font-size: 16px;
+    line-height: 25px;
+    color: #191919;
+    margin-bottom: 8px;
+  }
+  .checkposttext .description{
+    font-family: 'poppins';
+    font-size: 16px;
+    line-height: 25px;
+    color: #191919;
+  }
+  
+  @media only screen and (max-width:1600px) {
+    .abstractillusion > img{
+      margin-right: 20px;
+    }
+  }
+  @media only screen and (max-width:1440px) {
+    .mint-outer{
+      width: 40%;
+    }
+    .checkimg{
+      left: -3.6%;
+    }
+  }
+  @media only screen and (max-width:1200px) {
+    .mint-outer{
+      width: 50%;
+      left: 25%;
+    }
+  }
+  @media only screen and (max-width:1024px) {
+    /* .abstractillusioncontent {
+      width: 65%;
+    } */
+    .checkimg{
+      left: -3.7%;
+    }
+  }
+  @media only screen and (max-width:768px) {
+    .mint-outer {
+      width: 60%;
+      left: 20%;
+    }
+    .checkimg {
+      left: -4%;
+    }
+    /* .abstractillusioncontent {
+      width: 60%;
+    } */
+    .abstractillusion > img {
+      width: 120px;
+      /* height: 120px; */
+    }
+  }
+  @media only screen and (max-width:480px) {
+    .mint-outer{
+      left: 5%;
+      width: 90%;
+    }
+    /* .abstractillusioncontent {
+      width: 52%;
+    } */
+    .checkimg {
+      left: -5%;
+    }
+    .abstractillusion > img {
+      width: 100px;
+      /* height: 100px; */
+    }
+  }
+  @media only screen and (max-width:375px) {
+    /* .abstractillusioncontent {
+      width: 48%;
+    } */
+    .checkimg {
+      left: -6%;
+    }
+    .checkposttext{
+      width: 90%;
+    }
+  }
