@@ -4,15 +4,15 @@
 
 export const httpConstants = {
   BASE_URL0:
-    'http://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3000', //admin
+    'http://54.250.186.241:8080/http://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3000', //admin
   BASE_URL1:
-    'http://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3001', // client config
+    'http://54.250.186.241:8080/http://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3001', // client config
   BASE_URL2:
-    'http://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3002', // content microservice
+    'http://54.250.186.241:8080/http://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3002', // content microservice
   BASE_URL3:
-    'http://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3003', // sell purchase
+    'http://54.250.186.241:8080/http://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3003', // sell purchase
   BASE_URL4:
-    'http://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3004', // user management
+    'http://54.250.186.241:8080/http://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3004', // user management
   METHOD_TYPE: {
     POST: 'POST',
     PUT: 'PUT',
