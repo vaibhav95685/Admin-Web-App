@@ -4,15 +4,15 @@
 
 export const httpConstants = {
   BASE_URL0:
-    'https://abc.xdcbridge.com/http://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3000', //admin
+    'https://abc.xdcbridge.com/https://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3000', //admin
   BASE_URL1:
-    'https://abc.xdcbridge.com/http://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3001', // client config
+    'https://abc.xdcbridge.com/https://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3001', // client config
   BASE_URL2:
-    'https://abc.xdcbridge.com/http://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3002', // content microservice
+    'https://abc.xdcbridge.com/https://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3002', // content microservice
   BASE_URL3:
-    'https://abc.xdcbridge.com/http://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3003', // sell purchase
+    'https://abc.xdcbridge.com/https://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3003', // sell purchase
   BASE_URL4:
-    'https://abc.xdcbridge.com/http://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3004', // user management
+    'https://abc.xdcbridge.com/https://whitelabel-nft-lb-dev-1838936337.us-east-1.elb.amazonaws.com:3004', // user management
   METHOD_TYPE: {
     POST: 'POST',
     PUT: 'PUT',
