@@ -85,31 +85,6 @@ const Navbar = ({ activepage }) => {
             )}
           </NavLink>
           <NavLink
-            to="/my-store/advanced-settings"
-            className={(navData) =>
-              navData.isActive ? "secondaryLinkactive" : "secondaryLink"
-            }
-          >
-            {({ isActive }) => (
-              <div className="secondaryLinkDiv">
-                {isActive === true ? (
-                  <img
-                    src={advancedSettingsActiveIcon}
-                    alt="generalSettings"
-                    className="secondaryLinkIcons"
-                  />
-                ) : (
-                  <img
-                    src={advancedSettingsIcon}
-                    alt="generalSettings"
-                    className="secondaryLinkIcons"
-                  />
-                )}
-                Advance Settings
-              </div>
-            )}
-          </NavLink>
-          <NavLink
             to="/my-store/appearance"
             className={(navData) =>
               navData.isActive ? "secondaryLinkactive" : "secondaryLink"
