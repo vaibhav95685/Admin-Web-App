@@ -3,7 +3,7 @@ import { httpConstants } from "../constants";
 import { httpService } from "../utility/httpService";
 import { getParamTenantId } from "../utility/global";
 
-const BASE_URL1 = "https://www.nftinger.com:3002/"; // need to store it in .env file
+const BASE_URL1 = "http://13.231.160.45:3000/"; // need to store it in .env file
 
 // export default createNftContent;
 
