@@ -4,21 +4,22 @@
 
 export const httpConstants = {
   BASE_URL0:
-    'https://www.nftinger.com:3000', //admin
+    'http://35.78.124.232:3000/', //admin
   BASE_URL1:
-    'https://www.nftinger.com:3001', // client config
+    'http://35.77.224.20:3000/', // client config
   BASE_URL2:
-    'https://www.nftinger.com:3002', // content microservice
+    'http://13.231.160.45:3000/', // content microservice
   BASE_URL3:
-    'https://www.nftinger.com:3003', // sell purchase
+    'http://18.181.187.169:3000/', // sell purchase
   BASE_URL4:
-    'https://www.nftinger.com:3004', // user management
+    'http://13.231.163.61:3000/', // user management microservices
   METHOD_TYPE: {
     POST: 'POST',
     PUT: 'PUT',
     GET: 'GET',
     DELETE: 'DELETE',
   },
+  
   CONTENT_TYPE: {
     APPLICATION_JSON: 'application/json',
     MULTIPART_FORM_DATA: 'multipart/form-data',
