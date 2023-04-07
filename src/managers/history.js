@@ -1,5 +1,5 @@
 /**
- * Created by Ayush Kulshrestha on 18/09/2019.
+ * Created by Blockitsy.
  */
 
 import { createBrowserHistory } from 'history';
